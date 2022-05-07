@@ -86,7 +86,7 @@
 		"innerColor": [68,142,249],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Hellenic League",
-		"uniques": ["[-50]% City-State Influence degradation", "City-State Influence recovers at twice the normal rate", "City-State territory always counts as friendly territory"],
+		"uniques": ["[Military] units gain the [Greek] promotion","[-50]% City-State Influence degradation", "City-State Influence recovers at twice the normal rate", "City-State territory always counts as friendly territory"],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
 			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon",
@@ -248,7 +248,7 @@
 		"innerColor": [238,201,9],
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Glory of Rome",
-		"uniques": ["[+25]% Production towards any buildings that already exist in the Capital"],
+		"uniques": ["[+15]% Production when constructing [All] buildings [in all cities]","[+12] [Production] [in all cities]",],
 		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
 			"Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
@@ -593,7 +593,7 @@
 		"innerColor": [90,0,10],
 		"favoredReligion": "Islam",
 		"uniqueName": "River Warlord",
-		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities", "Defense bonus when embarked <for [All] units>", "[Land] units gain the [Amphibious] promotion"],
+		"uniques": ["[+4 Gold] from every [Trading Post]","Receive triple Gold from Barbarian encampments and pillaging Cities", "Defense bonus when embarked <for [All] units>", "[Land] units gain the [Amphibious] promotion"],
 		"cities": ["Gao","Tombouctu","Jenne","Taghaza","Tondibi","Kumbi Saleh","Kukia","Walata","Tegdaoust","Argungu","Gwandu",
 			"Kebbi","Boussa","Motpi","Bamako","Wa","Kayes","Awdaghost","Ouadane","Dakar","Tadmekket","Tekedda","Kano",
 			"Agadez","Niamey","Torodi","Ouatagouna","Dori","Bamba","Segou"]
@@ -716,7 +716,7 @@
 		"innerColor": [70, 0, 4],
 		"favoredReligion": "Tengriism",
 		"uniqueName": "Scourge of God",
-		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game"],
+		"uniques": ["When conquering an encampment, earn [25] Gold and recruit a Barbarian unit","Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately","Upon capturing a city, receive [10] times its [Faith] production as [Faith] immediately","Upon capturing a city, receive [10] times its [Gold] production as [Gold] immediately","Upon capturing a city, receive [10] times its [Science] production as [Science] immediately", "\"Borrows\" city names from other civilizations in the game"],
 		"cities": ["Atilla's Court"]
 	},
 	{
