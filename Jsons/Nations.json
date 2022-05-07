@@ -5,7 +5,32 @@
 		"outerColor": [255,255,255]
 //		"innerColor": [255,255,255]
 	},
+	{
+		"name": "Mongol Khanate",
+		"leaderName": "Genghis Khan",
+		"adjective": ["Mongolian"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
 
+		"startIntroPart1": "Greetings, o great Temuujin, immortal emperor of the mighty Mongol Empire! Your fists shatter walls of cities and your voice brings despair to your enemies. O Khan! You united the warring tribes of Northern Asia into a mighty people, creating the greatest cavalry force the world has ever witnessed. Your people's cunning diplomacy divided their enemies, making them weak and helpless before Mongolia's conquering armies. In a few short years, your people's soldiers conquered most of China and Eastern Asia, and the empire continued to grow until it reached west into Europe and south to Korea. Indeed, it was the greatest empire ever seen, dwarfing those pathetic conquests of the Romans or the Greeks.",
+		"startIntroPart2": "Temuujin, your people call upon you once more to lead them to battle and conquest. Will the world once again tremble at the thunderous sound of your cavalry, sweeping down from the steppes? Will you build a civilization that stands the test of time?",
+		"declaringWar": "You stand in the way of my armies. Let us solve this like warriors!",
+		"attacked": "No more words. Today, Mongolia charges toward your defeat.",
+		"defeated": "You have hobbled the Mongolian clans. My respect for you nearly matches the loathing. I am waiting for my execution.",
+		"introduction": "I am Temuujin, conqueror of cities and countries. Before me lie future Mongolian lands. Behind me is the only cavalry that matters.",
+		"neutralHello": "Hello.",
+		"hateHello": "So what now?",
+		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
+		"outerColor": [81,0,9],
+		"innerColor": [255,120,0],
+		"favoredReligion": "Tengriism",
+		"uniqueName": "Mongol Terror",
+		"uniques": ["Upon capturing a city, receive [5] times its [Culture] production as [Culture] immediately","Upon capturing a city, receive [5] times its [Gold] production as [Gold] immediately","Upon capturing a city, receive [5] times its [Science] production as [Science] immediately", "[+1] Movement <for [Mounted] units>"],
+		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
+			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
+			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
+			"Har-Ayrag","Nalayh","Tes"]
+	},
 	{
 		//nations
 		"name": "Babylon",
@@ -572,32 +597,6 @@
 		"cities": ["Gao","Tombouctu","Jenne","Taghaza","Tondibi","Kumbi Saleh","Kukia","Walata","Tegdaoust","Argungu","Gwandu",
 			"Kebbi","Boussa","Motpi","Bamako","Wa","Kayes","Awdaghost","Ouadane","Dakar","Tadmekket","Tekedda","Kano",
 			"Agadez","Niamey","Torodi","Ouatagouna","Dori","Bamba","Segou"]
-	},
-	{
-		"name": "Mongolia",
-		"leaderName": "Genghis Khan",
-		"adjective": ["Mongolian"],
-		"startBias": ["Plains"],
-		"preferredVictoryType": "Domination",
-
-		"startIntroPart1": "Greetings, o great Temuujin, immortal emperor of the mighty Mongol Empire! Your fists shatter walls of cities and your voice brings despair to your enemies. O Khan! You united the warring tribes of Northern Asia into a mighty people, creating the greatest cavalry force the world has ever witnessed. Your people's cunning diplomacy divided their enemies, making them weak and helpless before Mongolia's conquering armies. In a few short years, your people's soldiers conquered most of China and Eastern Asia, and the empire continued to grow until it reached west into Europe and south to Korea. Indeed, it was the greatest empire ever seen, dwarfing those pathetic conquests of the Romans or the Greeks.",
-		"startIntroPart2": "Temuujin, your people call upon you once more to lead them to battle and conquest. Will the world once again tremble at the thunderous sound of your cavalry, sweeping down from the steppes? Will you build a civilization that stands the test of time?",
-		"declaringWar": "You stand in the way of my armies. Let us solve this like warriors!",
-		"attacked": "No more words. Today, Mongolia charges toward your defeat.",
-		"defeated": "You have hobbled the Mongolian clans. My respect for you nearly matches the loathing. I am waiting for my execution.",
-		"introduction": "I am Temuujin, conqueror of cities and countries. Before me lie future Mongolian lands. Behind me is the only cavalry that matters.",
-		"neutralHello": "Hello.",
-		"hateHello": "So what now?",
-		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
-		"outerColor": [81,0,9],
-		"innerColor": [255,120,0],
-		"favoredReligion": "Tengriism",
-		"uniqueName": "Mongol Terror",
-		"uniques": ["Upon capturing a city, receive [5] times its [Culture] production as [Culture] immediately","Upon capturing a city, receive [5] times its [Gold] production as [Gold] immediately","Upon capturing a city, receive [5] times its [Science] production as [Science] immediately", "[+1] Movement <for [Mounted] units>"],
-		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
-			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
-			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
-			"Har-Ayrag","Nalayh","Tes"]
 	},
 	{
 		"name": "Aztecs",
