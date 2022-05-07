@@ -106,14 +106,14 @@
 		"aiWonderCostModifier": 1,
 		"aiBuildingMaintenanceModifier": 1,
 		"aiUnitMaintenanceModifier": 0.85,
-		"aiUnitSupplyModifier": 0.2,
+		"aiUnitSupplyModifier": 1,
 		"aiFreeTechs": [],
 		"aiMajorCivBonusStartingUnits": [],
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 1,
-		"aisExchangeTechs": true,
+		"aisExchangeTechs": false,
 		"turnBarbariansCanEnterPlayerTiles": 0,
-		"clearBarbarianCampReward": 25
+		"clearBarbarianCampReward": 50
 	},
 	{
 		"name": "King",
