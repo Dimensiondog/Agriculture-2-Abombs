@@ -33,7 +33,7 @@
 	},
 	{
 		//nations
-		"name": "Babylon",
+		"name": "Abbasid Caliphate",
 		"leaderName": "Nebuchadnezzar II",
 		"adjective": ["Babylonian"],
 		"startBias": ["Avoid [Tundra]"],
@@ -55,15 +55,15 @@
 		"outerColor": [27,53,63],
 		"innerColor": [213,249,255],
 		"favoredReligion": "Islam",
-		"uniqueName": "Ingenuity",
-		"uniques": ["Receive free [Great Scientist] when you discover [Writing]", "[Great Scientist] is earned [50]% faster"],
-		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
+		"uniqueName": "Golden Age of Islam",
+		"uniques": ["[+50]% [Culture]<during a Golden Age>","[+50]% [Faith]<during a Golden Age>","[+50]% [Science]<during a Golden Age>"],
+		"cities": ["Baghdad","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
 			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
 			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
 			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"]
 	},
 	{
-		"name": "Greece",
+		"name": "Kingdom of Greece",
 		"leaderName": "Alexander",
 		"adjective": ["Greek"],
 		"startBias": ["Coast"],
@@ -94,7 +94,7 @@
 			"Patras","Lamia","Nafplion","Apolyton"]
 	},
 	{
-		"name": "China",
+		"name": "Tang Dynasty",
 		"leaderName": "Wu Zetian",
 		"adjective": ["Chinese"],
 		"preferredVictoryType": "Scientific",
@@ -111,16 +111,16 @@
 		"outerColor": [9, 112, 84],
 		"innerColor": [255,255,255],
 		"favouredReligion": "Taoism",
-		"uniqueName": "Art of War",
-		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [50]% faster"],
+		"uniqueName": "Silk Road",
+		"uniques": ["[+1 Science, +3 Gold, +2 Culture] from each Trade Route],
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
 			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
 			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"]
 	},
 	{
-		"name": "Egypt",
-		"leaderName": "Ramesses II",
+		"name": "Ayyubid Dynasty",
+		"leaderName": "Saladin",
 		"adjective": ["Egyptian"],
 		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
 		"preferredVictoryType": "Cultural",
@@ -141,7 +141,7 @@
 		"outerColor": [ 231, 213, 0],
 		"innerColor": [98,10,210],
 		"favoredReligion": "Islam",
-		"uniqueName": "Monument Builders",
+		"uniqueName": "Justice of Saladin",
 		"uniques": ["[+20]% Production when constructing [All] wonders [in all cities]"],
 		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
 			   "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
@@ -150,7 +150,7 @@
 			   "Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"]
 	},
 	{
-		"name": "England",
+		"name": "Kingdom of England",
 		"leaderName": "Elizabeth",
 		"adjective": ["English"],
 		"startBias": ["Coast"],
@@ -176,7 +176,7 @@
 			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"]
 	},
 	{
-		"name": "France",
+		"name": "French Republic",
 		"leaderName": "Napoleon",
 		"adjective": ["French"],
 		"preferredVictoryType": "Cultural",
@@ -201,7 +201,7 @@
 			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"]
 	},
 	{
-		"name": "Russia",
+		"name": "Tsardom of Russia",
 		"leaderName": "Catherine",
 		"adjective": ["Russian"],
 		"startBias": ["Tundra"],
@@ -228,7 +228,7 @@
 			"Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk"]
 	},
 	{
-		"name": "Rome",
+		"name": "Kingdom of Italy",
 		"leaderName": "Augustus Caesar",
 		"adjective": ["Roman"],
 		"startBias":["Avoid [Tundra]","Avoid [Desert]"],
@@ -255,7 +255,7 @@
 			  "Agrippina","Verona","Corfinium","Treverii","Sirmium","Augustadorum","Curia","Interrama","Adria"]
 	},
 	{
-		"name": "Arabia",
+		"name": "Ummayad Caliphate",
 		"leaderName": "Harun al-Rashid",
 		"adjective": ["Arabian"],
 		"startBias": ["Desert"],
@@ -280,7 +280,7 @@
 			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"]
 	},
 	{
-		"name": "America",
+		"name": "United States of America",
 		"leaderName": "George Washington",
 		"adjective": ["American"],
 		"preferredVictoryType": "Scientific",
@@ -307,7 +307,7 @@
 			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"]
 	},
 	{
-		"name": "Japan",
+		"name": "Tokugawa Shogunate",
 		"leaderName": "Oda Nobunaga",
 		"adjective": ["Japanese"],
 		"startBias": ["Coast"],
@@ -333,7 +333,7 @@
 			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"]
 	},
 	{
-		"name": "India",
+		"name": "Mughal Empire",
 		"leaderName": "Gandhi",
 		"adjective": ["Indian"],
 		"startBias": ["Grassland"],
@@ -358,7 +358,7 @@
 			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"]
 	},
 	{
-		"name": "Germany",
+		"name": "Kingdom of Prussia",
 		"leaderName": "Otto von Bismarck",
 		"adjective": ["German"],
 		"preferredVictoryType": "Scientific",
@@ -387,7 +387,7 @@
 	},
 
 	{
-		"name": "The Ottomans",
+		"name": "The Ottoman Caliphate",
 		"leaderName": "Suleiman I",
 		"adjective": ["Ottoman"],
 		"startBias": ["Coast"],
@@ -414,7 +414,7 @@
 			"Bitlis","Yalova"]
 	},
 	{
-		"name": "Korea",
+		"name": "Joseon Dynasty",
 		"leaderName": "Sejong",
 		"adjective": ["Korean"],
 		"startBias": ["Coast"],
@@ -441,7 +441,7 @@
 	},
 
 	{
-		"name": "Iroquois",
+		"name": "Confederacy of the Iroquois",
 		"leaderName": "Hiawatha",
 		"adjective": ["Iroquoise"],
 		"startBias": ["Forest"],
@@ -467,7 +467,7 @@
 			"Schoharie","Bay of Quinte","Kanawale","Kanatsiokareke","Tyendinaga","Hahta"]
 	},
 	{
-		"name": "Persia",
+		"name": "Sassinid Empire",
 		"leaderName": "Darius I",
 		"adjective": ["Persian"],
 		"preferredVictoryType": "Scientific",
@@ -495,7 +495,7 @@
 			"Paishiyauvada","Patigrbana","Phrada"]
 	},
 	{
-		"name": "Polynesia",
+		"name": "Kingdom of Hawaii",
 		"leaderName": "Kamehameha I",
 		"adjective": ["Polynesia"],
 		"startBias": ["Coast"],
@@ -521,7 +521,7 @@
 			"Emae","Kapingamarangi","Takuu","Nukuoro","Sikaiana","Anuta","Nuguria","Pileni","Nukumanu"]
 	},
 	{
-		"name": "Siam",
+		"name": "Kingdom of Siam",
 		"leaderName": "Ramkhamhaeng",
 		"adjective": ["Siamese"],
 		"startBias": ["Avoid [Forest]"],
@@ -547,7 +547,7 @@
 			"Ban Phai","Loci","Khon Kaen","Surin"]
 	},
 	{
-		"name": "Spain",
+		"name": "Spainish Empire",
 		"leaderName": "Isabella",
 		"adjective": ["Spanish"],
 		"startBias": ["Coast"],
@@ -574,7 +574,7 @@
 			"San Sebastian","Granada","Mérida","Huelva","Ibiza","Las Palmas","Tenerife"]
 	},
 	{
-		"name": "Songhai",
+		"name": "Kingdom of Mali",
 		"leaderName": "Askia",
 		"adjective": ["Songhai"],
 		"startBias": ["Avoid [Tundra]"],
@@ -629,7 +629,7 @@
 			"Itzapalapa","Ayotzinco","Iztapam"]
 	},
 	{
-		"name": "Inca",
+		"name": "Incan Empire",
 		"leaderName": "Pachacuti",
 		"adjective": ["Incan"],
 		"startBias": ["Hill"],
@@ -669,7 +669,7 @@
 			"Llactapata","Pisac","Kuelap","Pajaten","Chucuito","Choquequirao"]
 	},
 	{
-		"name": "Denmark",
+		"name": "Kingdom of Denmark",
 		"leaderName": "Harald Bluetooth",
 		"adjective": ["Danish"],
 		"startBias": ["Coast"],
@@ -697,7 +697,7 @@
 			"Hillerod","Sonderborg","Skien","Svendborg","Holbaek","Hjorring","Fladstrand","Haderslev","Ringsted","Skrive"]
 	},
 	{
-		"name": "The Huns",
+		"name": "Khazar Khanate",
 		"leaderName": "Attila the Hun",
 		"adjective": ["Hunnic"],
 		"startBias": ["Avoid [Jungle]", "Avoid [Forest]"],
@@ -720,7 +720,7 @@
 		"cities": ["Atilla's Court"]
 	},
 	{
-		"name": "The Netherlands",
+		"name": "Dutch Republic",
 		"leaderName": "William of Orange",
 		"adjective": ["Dutch"],
 		"startBias": ["Grassland"],
@@ -744,7 +744,7 @@
 	},
 
 	{
-	    "name": "Sweden",
+	    "name": "Kingdom of Sweden",
 		"leaderName": "Gustavus Adolphus",
 		"adjective": ["Swedish"],
 		"startBias": ["Tundra"],
@@ -773,7 +773,7 @@
 		"Kiruna","Borgholm","Strängnäs","Sveg"]
 	},
 	{
-		"name": "Austria",
+		"name": "Holy Roman Empire",
 		"leaderName": "Maria Theresa",
 		"adjective": ["Austrian"],
 		"startBias": ["Hill"],
@@ -802,7 +802,7 @@
 		]
 	},
 	{
-		"name": "Carthage",
+		"name": "Carthaginian Republic",
 		"leaderName": "Dido",
 		"adjective": ["Carthaginian"],
 		"startBias": ["Coast"],
@@ -830,7 +830,7 @@
 			"Saldae"]
 	},
 	{
-		"name": "Byzantium",
+		"name": "Eastern Roman Empire",
 		"leaderName": "Theodora",
 		"adjective": ["Byzantine"],
 		"startBias": ["Coast"],
@@ -857,7 +857,7 @@
 			"Patra", "Korinthos"]
 	},
 	{
-		"name": "Celts",
+		"name": "Republic of Ireland",
 		"leaderName": "Boudicca",
 		"adjective": ["celtic"],
 		"startBias": ["Forest"],
@@ -896,7 +896,7 @@
 		// Llanfairpwllgwyngyll should actually be Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch
 	},
 	{
-		"name": "Ethiopia",
+		"name": "Kingdom of Ethiopia",
 		"leaderName": "Haile Selassie",
 		"adjective": ["ethiopian"],
 		"startBias": ["Jungle"],
@@ -933,8 +933,8 @@
 			"Shire","Ambo","Negele Arsi","Gambela","Ziway","Weldiya"]
 	},
 	{
-		"name": "The Maya",
-		"leaderName": "Pacal",
+		"name": "Gran Colombia",
+		"leaderName": "Simon Bolivar",
 		"adjective": ["mayan"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Scientific",
