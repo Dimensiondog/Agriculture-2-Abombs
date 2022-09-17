@@ -150,42 +150,53 @@
 	},
 	{
 		"columnNumber": 4,
-		"era": "Classical era",
+		"era": "Ancient era",
 		"techCost": 175,
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "Philosophy",
-				"row": 2,
-				"prerequisites": ["Writing","Calendar"],
+				"name": "Exploration",
+				"row": 1,
+				"prerequisites": ["Naval Warfare"],
 				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
 			},
 			{
-				"name": "Drama and Poetry",
+				"name": "Orchads",
 				"row": 3,
-				"prerequisites": ["Writing"],
+				"prerequisites": ["Apiculture"],
 				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
 			},
 			{
-				"name": "Currency",
-				"row": 7,
-				"prerequisites": ["Mathematics"],
+				"name": "Chariotry",
+				"row": 5,
+				"prerequisites": ["The Wheel"],
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
 			},
 			{
-				"name": "Engineering",
-				"row": 8,
-				"prerequisites": ["Mathematics","Construction"],
-				"uniques": ["Roads connect tiles across rivers"],
+				"name": "Standardisation",
+				"row": 6,
+				"prerequisites": ["The Wheel"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
 			{
-				"name": "Iron Working",
-				"row": 10,
-				"prerequisites": ["Bronze Working"],
+				"name": "Heritage",
+				"row": 7,
+				"prerequisites": ["Ancestor Worship"],
 				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
-			}
+			},
+						{
+				"name": "Sacrifice Cult",
+				"row": 8,
+				"prerequisites": ["Ancestor Worship"],
+				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
+			},
+						{
+				"name": "Mummification",
+				"row": 9,
+				"prerequisites": ["Ancestor Worship"],
+				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
+			},
 		]
 	},
 	{
