@@ -507,105 +507,111 @@
 	},
 	{
 		"columnNumber": 11,
-		"era": "Modern era",
+		"era": "Ancient era",
 		"techCost": 3100,
 		"buildingCost": 500,
 		"wonderCost": 1060,
 		"techs": [
 			{
-				"name": "Refrigeration",
-				"row": 2,
-				"prerequisites": ["Biology", "Electricity"], //todo: offshore platform should need this
+				"name": "Seafaring",
+				"row": 1,
+				"prerequisites": ["Locks", "Bronze Working"], //todo: offshore platform should need this
 				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
 			},
 			{
-				"name": "Radio",
-				"row": 3,
-				"prerequisites": ["Electricity"],
+				"name": "Brass Working",
+				"row": 2,
+				"prerequisites": ["Bronze Working"],
 				"quote": "'The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
 			},
 			{
-				"name": "Replaceable Parts",
-				"row": 4,
-				"prerequisites": ["Electricity","Steam Power"],
+				"name": "Central Heating",
+				"row": 3,
+				"prerequisites": ["Plumbing","Bronze Working"],
 				"quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
 			},
 			{
-				"name": "Flight",
-				"row": 6,
-				"prerequisites": ["Steam Power"],
+				"name": "Hydraulic Mining",
+				"row": 4,
+				"prerequisites": ["Gear","Plumbing"],
 				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
 			},
 			{
-				"name": "Railroads",
+				"name": "Scriptures",
+				"row": 7,
+				"prerequisites": ["Monotheism"],
+				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
+			},
+			{
+				"name": "Karma",
 				"row": 8,
-				"prerequisites": ["Steam Power","Dynamite"],
+				"prerequisites": ["Magic"],
+				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
+			},
+			{
+				"name": "Ventinary Medicine",
+				"row": 9,
+				"prerequisites": ["Magic"],
+				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
+			},
+			{
+				"name": "Polytheism",
+				"row": 10,
+				"prerequisites": ["Magic"],
 				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
 			}
 		]
 	},
 	{
 		"columnNumber": 12,
-		"era": "Modern era",
+		"era": "Ancient era",
 		"techCost": 4100,
 		"buildingCost": 500,
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Plastics",
-				"row": 3,
-				"prerequisites": ["Radio","Replaceable Parts"],
+				"name": "Cloud Patterns",
+				"row": 1,
+				"prerequisites": ["Seafaring"],
 				"quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate"
 			},
 			{
-				"name": "Electronics",
-				"row": 5,
-				"prerequisites": ["Replaceable Parts", "Flight"],
+				"name": "Linguistics",
+				"row": 2,
+				"prerequisites": ["Seafaring"],
 				"quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
 			},
 			{
-				"name": "Ballistics",
-				"row": 6,
-				"prerequisites": ["Flight"],
+				"name": "Glassblowing",
+				"row": 3,
+				"prerequisites": ["Central Heating","Brass Working"],
 				"quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
 			},
 			{
-				"name": "Combustion",
+				"name": "Monarchy",
+				"row": 6,
+				"prerequisites": ["Scriptures"],
+				"quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
+			},
+			{
+				"name": "Reincarnation",
 				"row": 8,
-				"prerequisites": ["Railroads"],
+				"prerequisites": ["Scriptures","Karma","Ventinary Medicine","Polytheism"],
 				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
 			}
 		]
 	},
 	{
 		"columnNumber": 13,
-		"era": "Atomic era",
+		"era": "Classical era",
 		"techCost": 5100,
 		"buildingCost": 500,
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Pharmaceuticals",
-				"row": 2,
-				"prerequisites": ["Plastics","Refrigeration"],
-				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
-			},
-			{
-				"name": "Atomic Theory",
-				"row": 4,
-				"prerequisites": ["Plastics","Electronics"],
-				"quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
-			},
-			{
-				"name": "Radar",
-				"row": 6,
-				"prerequisites": ["Ballistics","Electronics"],
-				"quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
-			},
-			{
-				"name": "Combined Arms",
-				"row": 8,
-				"prerequisites": ["Ballistics","Combustion"],
+				"name": "Classical Lifestyle",
+				"row": 5,
+				"prerequisites": ["Cloud Patterns","Linguistics","Glass Blowing","Hydraulic Mining","Monarchy","Reincarnation"],
 				"quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
 			}
 		]
