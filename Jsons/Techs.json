@@ -310,158 +310,197 @@
 	},
 	{
 		"columnNumber": 7,
-		"era": "Renaissance era",
+		"era": "Ancient era",
 		"techCost": 780,
 		"buildingCost": 200,
 		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "Astronomy",
-				"row": 2,
-				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles"],
-				"prerequisites": ["Compass","Education"],
+				"name": "Soap Making",
+				"row": 1,
+				"prerequisites": ["Oil Lamps","Folk Medicine"],
 				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
 			},
 			{
-				"name": "Acoustics",
-				"row": 4,
-				"prerequisites": ["Education"],
+				"name": "Piracy",
+				"row": 2,
+				"prerequisites": ["Plough"],
 				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
 			},
 			{
-				"name": "Banking",
-				"row": 6,
-				"prerequisites": ["Chivalry", "Education"],
+				"name": "Irrigation",
+				"row": 3,
+				"prerequisites": ["Plough","Metal Casting"],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			},
 			{
-				"name": "Printing Press",
-				"row": 8,
-				"prerequisites": ["Machinery","Physics","Chivalry"],
+				"name": "Sculpture",
+				"row": 4,
+				"prerequisites": ["Metal Casting","Textile Looms"],
 				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
 			},
 			{
-				"name": "Gunpowder",
-				"row": 10,
-				"prerequisites": ["Physics","Steel"],
+				"name": "Sericulture",
+				"row": 5,
+				"prerequisites": ["Metal Casting","Textile Looms"],
+				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
+			},
+			{
+				"name": "Priesthood",
+				"row": 9,
+				"prerequisites": ["Ceremony"],
 				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
 			}
 		]
 	},
 	{
 		"columnNumber": 8,
-		"era": "Renaissance era",
+		"era": "Ancient era",
 		"techCost": 1150,
 		"buildingCost": 250,
 		"wonderCost": 625,
 		"techs": [
 			{
-				"name": "Navigation",
-				"row": 2,
-				"prerequisites": ["Astronomy"],
+				"name": "Gardening",
+				"row": 3,
+				"prerequisites": ["Irrigation"],
 				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
 			},
 			{
-				"name": "Architecture",
+				"name": "Leisure",
 				"row": 4,
-				"prerequisites": ["Acoustics","Banking"],
+				"prerequisites": ["Sericulture","Sculpture"],
 				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
 			},
 			{
-				"name": "Economics",
-				"row": 6,
-				"prerequisites": ["Banking","Printing Press"],
+				"name": "Ornamentation",
+				"row": 5,
+				"prerequisites": ["Sericulture"],
 				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
 			},
 			{
-				"name": "Metallurgy",
-				"row": 9,
-				"prerequisites": ["Printing Press","Gunpowder"],
+				"name": "Duelism",
+				"row": 7,
+				"prerequisites": ["Priesthood"],
 				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
 			},
 			{
-				"name": "Chemistry",
+				"name": "Oratory",
+				"row": 8,
+				"prerequisites": ["Priesthood"],
+				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
+			},
+			{
+				"name": "Divination",
+				"row": 9,
+				"prerequisites": ["Priesthood"],
+				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
+			},
+			{
+				"name": "Candle Making",
 				"row": 10,
-				"prerequisites": ["Gunpowder"],
+				"prerequisites": ["Priesthood"],
 				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
 			}
 		]
 	},
 	{
 		"columnNumber": 9,
-		"era": "Industrial era",
+		"era": "Ancient era",
 		"techCost": 1600,
 		"buildingCost": 300,
 		"wonderCost": 750,
 		"techs": [
 			{
-				"name": "Archaeology",
-				"row": 2,
-				"prerequisites": ["Navigation","Architecture"],
+				"name": "Specialisation",
+				"row": 3,
+				"prerequisites": ["Gardening"],
 				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
 			},
 			{
-				"name": "Scientific Theory",
+				"name": "Sundial",
 				"row": 4,
-				"prerequisites": ["Architecture","Economics"],
+				"prerequisites": ["Ornamentation"],
 				"quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
 			},
 			{
-				"name": "Industrialization",
+				"name": "Furniture Making",
 				"row": 6,
-				"prerequisites": ["Economics"],
+				"prerequisites": ["Ornamentation"],
 				"quote": "'Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch"
 			},
 			{
-				"name": "Rifling",
+				"name": "Writing",
 				"row": 7,
-				"prerequisites": ["Economics","Metallurgy"],
+				"prerequisites": ["Ornamentation","Duelism"],
 				"quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee"
 			},
 			{
-				"name": "Military Science",
+				"name": "Matriarchy",
 				"row": 9,
-				"prerequisites": ["Metallurgy","Chemistry"],
+				"prerequisites": ["Duelism","Oratory"],
 				"quote": "'Wars may be fought with weapons, but they are won by men. It is the spirit of the men who follow and of the man who leads that gains the victory.' - George S. Patton"
 			},
 			{
-				"name": "Fertilizer",
+				"name": "Ressurection",
 				"row": 10,
-				"prerequisites": ["Chemistry"],
+				"prerequisites": ["Divination","Oratory"],
 				"quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt"
 			}
 		]
 	},
 	{
 		"columnNumber": 10,
-		"era": "Industrial era",
+		"era": "Ancient era",
 		"techCost": 2350,
 		"buildingCost": 360,
-		"wonderCost": 900, // Note that this column doesn't actually have any wonders. This just continues the wonderCost = 2.5 * buildingCost pattern from the last few columns.
 		"techs": [
 			{
-				"name": "Biology",
-				"row": 2,
-				"prerequisites": ["Archaeology","Scientific Theory"],
+				"name": "Locks",
+				"row": 1,
+				"prerequisites": ["Piracy","Specialisation"],
 				"quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson"
 			},
 			{
-				"name": "Electricity",
-				"row": 3,
-				"prerequisites": ["Scientific Theory"],
+				"name": "Bronze Working",
+				"row": 2,
+				"prerequisites": ["Specialisation"],
 				"quote": "'Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
 			},
 			{
-				"name": "Steam Power",
-				"row": 6,
-				"uniques": ["[+1] Movement <for [Embarked] units>"],
-				"prerequisites": ["Industrialization","Scientific Theory","Rifling"],
+				"name": "Plumbing",
+				"row": 3,
+				"prerequisites": ["Specialisation"],
 				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
 			},
 			{
-				"name": "Dynamite",
+				"name": "Gear",
+				"row": 4,
+				"prerequisites": ["Specialisation","Furniture Making"],
+				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
+			},
+			{
+				"name": "Cuisine",
+				"row": 5,
+				"prerequisites": ["Writing"],
+				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
+			},
+			{
+				"name": "Monotheism",
+				"row": 6,
+				"prerequisites": ["Writing"],
+				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
+			},
+			{
+				"name": "Patriarchy",
+				"row": 8,
+				"prerequisites": ["Matriarchy"],
+				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
+			},
+			{
+				"name": "Magic",
 				"row": 9,
-				"prerequisites": ["Fertilizer","Military Science"],
+				"prerequisites": ["Ressurection"],
 				"quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
 			}
 		]
