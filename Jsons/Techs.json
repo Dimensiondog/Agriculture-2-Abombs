@@ -618,79 +618,120 @@
 	},
 	{
 		"columnNumber": 14,
-		"era": "Atomic era",
+		"era": "Classical era",
 		"techCost": 6400,
 		"buildingCost": 500,
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Ecology",
-				"row": 2,
-				"prerequisites": ["Atomic Theory","Pharmaceuticals"],
+				"name": "Ship Building",
+				"row": 1,
+				"prerequisites": ["Classical Lifestyle"],
 				"quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson"
 			},
 			{
-				"name": "Nuclear Fission",
-				"row": 4,
-				"prerequisites": ["Atomic Theory","Radar"],
+				"name": "Aristocracy",
+				"row": 2,
+				"prerequisites": ["Classical Lifestyle"],
 				"quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer"
 			},
 			{
-				"name": "Rocketry",
-				"row": 6,
-				"prerequisites": ["Radar"],
+				"name": "Military Training",
+				"row": 3,
+				"prerequisites": ["Classical Lifestyle"],
 				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
 			},
 			{
-				"name": "Computers",
+				"name": "Iron Working",
+				"row": 4,
+				"prerequisites": ["Classical Lifestyle"],
+				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
+			},
+			{
+				"name": "Mathematics",
+				"row": 5,
+				"prerequisites": ["Classical Lifestyle"],
+				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
+			},
+			{
+				"name": "Currency",
+				"row": 6,
+				"prerequisites": ["Classical Lifestyle"],
+				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
+			},
+			{
+				"name": "Mail",
+				"row": 7,
+				"prerequisites": ["Classical Lifestyle"],
+				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
+			},
+			{
+				"name": "Alphabet",
 				"row": 8,
-				"prerequisites": ["Combined Arms","Radar"],
+				"prerequisites": ["Classical Lifestyle"],
+				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
+			},
+			{
+				"name": "Meditation",
+				"row": 10,
+				"prerequisites": ["Classical Lifestyle"],
 				"quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
 			}
 		]
 	},
 	{
 		"columnNumber": 15,
-		"era": "Information era",
+		"era": "Classical era",
 		"techCost": 7700,
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Telecommunications",
+				"name": "Horse Breeding",
 				"row": 2,
-				"prerequisites": ["Ecology"],
+				"prerequisites": ["Military Training","Aristocracy"],
 				"quote": "'The more we elaborate our means of communication, the less we communicate.' - J.B. Priestly"
 			},
 			{
-				"name": "Mobile Tactics",
+				"name": "Ancient Machinery",
 				"row": 3,
-				"prerequisites": ["Ecology","Nuclear Fission"],
+				"prerequisites": ["Military Training","Iron Working"],
 				"quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
 			},
 			{
-				"name": "Advanced Ballistics",
-				"row": 5,
-				"prerequisites": ["Nuclear Fission","Rocketry"],
+				"name": "Athletics",
+				"row": 4,
+				"prerequisites": ["Iron Working"],
 				"quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' – Martin Luther King Jr."
 			},
 			{
-				"name": "Satellites",
-				"row": 6,
-				"prerequisites": ["Rocketry"],
-				"uniques": ["Reveals the entire map"],
+				"name": "Geometry",
+				"row": 5,
+				"prerequisites": ["Mathematics"],
 				"quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
 			},
 			{
-				"name": "Robotics",
-				"row": 7,
-				"prerequisites": ["Rocketry","Computers"],
+				"name": "Road Building",
+				"row": 6,
+				"prerequisites": ["Mathematics","Currency","Mail"],
 				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
 			},
 			{
-				"name": "Lasers",
+				"name": "Cyrptography",
+				"row": 7,
+				"prerequisites": ["Mail"],
+				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
+			},
+			{
+				"name": "Literature",
 				"row": 8,
-				"prerequisites": ["Computers"],
+				"prerequisites": ["Mail","Alphabet"],
+				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
+			},
+			{
+				"name": "Code of Laws",
+				"row": 9,
+				"prerequisites": ["Alphabet"],
 				"quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
 			}
 		]
