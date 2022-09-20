@@ -739,39 +739,63 @@
 
 	{
 		"columnNumber": 16,
-		"era": "Information era",
+		"era": "Clasical era",
 		"techCost": 8800,
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Globalization",
-				"row": 2,
-				"prerequisites": ["Telecommunications"],
+				"name": "Mounted Archery",
+				"row": 1,
+				"prerequisites": ["Horse Breeding"],
 				"quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
 			},
 			{
-				"name": "Particle Physics",
-				"row": 3,
-				"prerequisites": ["Telecommunications","Mobile Tactics","Advanced Ballistics"],
+				"name": "Stirrups",
+				"row": 2,
+				"prerequisites": ["Horse Breeding","Ancient Machinery"],
 				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
 			},
 			{
-				"name": "Nuclear Fusion",
-				"row": 6,
-				"prerequisites": ["Advanced Ballistics", "Satellites", "Robotics"],
+				"name": "Combat Sports",
+				"row": 3,
+				"prerequisites": ["Athletics"],
 				"quote": "'The release of atomic energy has not created a new problem. It has readily made more urgent the necessity of solving an existing one.' - Albert Einstein"
 			},
 			{
-				"name": "Nanotechnology",
-				"row": 7,
-				"prerequisites": ["Robotics"],
+				"name": "Calendar",
+				"row": 5,
+				"prerequisites": ["Geometry"],
 				"quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
 			},
 			{
-				"name": "Stealth",
+				"name": "City Planning",
+				"row": 6,
+				"prerequisites": ["Geometry","Road Building"],
+				"quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
+			},
+			{
+				"name": "Construction",
+				"row": 7,
+				"prerequisites": ["Road Building"],
+				"quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
+			},
+			{
+				"name": "Law Enforcement",
 				"row": 8,
-				"prerequisites": ["Robotics", "Lasers"],
+				"prerequisites": ["Cryptography","Literature","Code of Laws"],
+				"quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
+			},
+			{
+				"name": "Diplomacy",
+				"row": 9,
+				"prerequisites": ["Code of Laws"],
+				"quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
+			},
+			{
+				"name": "Democracy",
+				"row": 10,
+				"prerequisites": ["Code of Laws"],
 				"quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu"
 			}
 		]
