@@ -1001,136 +1001,362 @@
 			},
 		]
 	},	{
-		"columnNumber": 17,
-		"era": "Future era",
+		"columnNumber": 23,
+		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Future Tech",
+				"name": "Theology",
+				"row": 1,
+				"prerequisites": ["Medieval Lifestyle"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Engineering",
+				"row": 4,
+				"prerequisites": ["Medieval Lifestyle"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Civil Service",
 				"row": 5,
-				"prerequisites": ["Globalization","Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
+				"prerequisites": ["Medieval Lifestyle"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Fire Brigades",
+				"row": 6,
+				"prerequisites": ["Medieval Lifestyle"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Smithing",
+				"row": 7,
+				"prerequisites": ["Medieval Lifestyle"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Vassalage",
+				"row": 9,
+				"prerequisites": ["Medieval Lifestyle"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 		]
 	},	{
-		"columnNumber": 17,
-		"era": "Future era",
+		"columnNumber": 24,
+		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Future Tech",
-				"row": 5,
-				"prerequisites": ["Globalization","Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
+				"name": "Fundamentalism",
+				"row": 1,
+				"prerequisites": ["Theology"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Papacy",
+				"row": 2,
+				"prerequisites": ["Theology"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Surveying",
+				"row": 4,
+				"prerequisites": ["Engineering","Civil Service","Fire Brigades"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Rudder",
+				"row": 7,
+				"prerequisites": ["Smithing"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Fuedalism",
+				"row": 9,
+				"prerequisites": ["Vassalage"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 		]
 	},	{
-		"columnNumber": 17,
-		"era": "Future era",
+		"columnNumber": 24,
+		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Future Tech",
+				"name": "Alchemy",
+				"row": 4,
+				"prerequisites": ["Fundamentalism"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Architecture",
 				"row": 5,
-				"prerequisites": ["Globalization","Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
+				"prerequisites": ["Surveying"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Windmills",
+				"row": 8,
+				"prerequisites": ["Rudder","Fuedalism"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Crop Rotation",
+				"row": 9,
+				"prerequisites": ["Fuedalism"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Yeomanry",
+				"row": 10,
+				"prerequisites": ["Fuedalism"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 		]
 	},	{
-		"columnNumber": 17,
-		"era": "Future era",
+		"columnNumber": 25,
+		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Future Tech",
+				"name": "Rat Catching",
+				"row": 4,
+				"prerequisites": ["Alchemy"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Stained Glass",
 				"row": 5,
-				"prerequisites": ["Globalization","Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
+				"prerequisites": ["Architecture"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Guilds",
+				"row": 6,
+				"prerequisites": ["Architecture"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Optics",
+				"row": 7,
+				"prerequisites": ["Rudder"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Agricultural Tools",
+				"row": 8,
+				"prerequisites": ["Windmills","Crop Rotation"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Usury",
+				"row": 9,
+				"prerequisites": ["Yeomanry"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Heraldry",
+				"row": 10,
+				"prerequisites": ["Yeomanry"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 		]
 	},	{
-		"columnNumber": 17,
-		"era": "Future era",
+		"columnNumber": 26,
+		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Future Tech",
+				"name": "Innovation",
+				"row": 3,
+				"prerequisites": ["Rat Catching"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Plague Medicine",
+				"row": 4,
+				"prerequisites": ["Rat Catching"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Paper",
 				"row": 5,
-				"prerequisites": ["Globalization","Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
+				"prerequisites": ["Guilds","Optics"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Commercial Whaling",
+				"row": 6,
+				"prerequisites": ["Optics","Usury"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Martial Arts",
+				"row": 9,
+				"prerequisites": ["Heraldry"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Armour Crafting",
+				"row": 10,
+				"prerequisites": ["Heraldry"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 		]
 	},	{
-		"columnNumber": 17,
-		"era": "Future era",
+		"columnNumber": 27,
+		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Future Tech",
-				"row": 5,
-				"prerequisites": ["Globalization","Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
+				"name": "Clockwork",
+				"row": 1,
+				"prerequisites": ["Innovation"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Armoured Cavalry",
+				"row": 2,
+				"prerequisites": ["Innovation"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Perspective",
+				"row": 6,
+				"prerequisites": ["Paper"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Cartography",
+				"row": 7,
+				"prerequisites": ["Paper"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Charters",
+				"row": 8,
+				"prerequisites": ["Paper"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Crucible Steel",
+				"row": 10,
+				"prerequisites": ["Armour Crafting"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 		]
 	},	{
-		"columnNumber": 17,
+		"columnNumber": 28,
 		"era": "Future era",
 		"techCost": 9500,
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Future Tech",
+				"name": "Chivalry",
+				"row": 2,
+				"prerequisites": ["Armoured Cavalry"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Mountaineering",
+				"row": 3,
+				"prerequisites": ["Innovation"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Warrants and Decrees",
+				"row": 4,
+				"prerequisites": ["Perspective"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Education",
 				"row": 5,
-				"prerequisites": ["Globalization","Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
+				"prerequisites": ["Perspective",],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Parliments",
+				"row": 8,
+				"prerequisites": ["Charters"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Banking",
+				"row": 9,
+				"prerequisites": ["Charters"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Coal Mining",
+				"row": 10,
+				"prerequisites": ["Crucible Steel"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 		]
 	},	{
-		"columnNumber": 17,
-		"era": "Future era",
+		"columnNumber": 29,
+		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Future Tech",
+				"name": "Tournaments",
+				"row": 2,
+				"prerequisites": ["Chivalry"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Anatomy",
+				"row": 4,
+				"prerequisites": ["Education"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Acoustics",
 				"row": 5,
-				"prerequisites": ["Globalization","Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
+				"prerequisites": ["Education"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Algebra",
+				"row": 6,
+				"prerequisites": ["Education"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "Compass",
+				"row": 7,
+				"prerequisites": ["Cartography","Education"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 		]
 	},	{
-		"columnNumber": 17,
-		"era": "Future era",
+		"columnNumber": 30,
+		"era": "Renaissance era",
 		"techCost": 9500,
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Future Tech",
+				"name": "Renaissance",
 				"row": 5,
-				"prerequisites": ["Globalization","Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
+				"prerequisites": ["Compass","Algebra","Acoustics","Anatomy","Tournaments","Parliments","Banking","Coal Mining"],
 				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
