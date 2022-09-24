@@ -1009,7 +1009,7 @@
 		"cost": 225,
 		"requiredTech": "Industrialism",
 		"upgradesTo": "Machine Gun",
-		"obsoleteTech": "Ballistics",
+		"obsoleteTech": "Automatic Weapons",
 		"attackSound": "machinegun"
 	},
 	{
@@ -1074,7 +1074,6 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
-		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
@@ -1089,7 +1088,6 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
-		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>"],
 		"promotions": ["[Cossack] ability"],
 		"attackSound": "horse"
@@ -1105,7 +1103,6 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
-		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>",
 			"[+1] Sight"],
 		"promotions": ["[Hussar] ability"],
@@ -1150,7 +1147,6 @@
 		"rangedStrength": 60,
 		"cost": 325,
 		"requiredTech": "Refrigeration",
-		"upgradesTo": "Nuclear Submarine",
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
@@ -1263,24 +1259,10 @@
 		"interceptRange": 2,
 		"strength": 50,
 		"cost": 375,
-		"requiredTech": "",
+		"requiredTech": "Rocketry",
 		"upgradesTo": "Mobile SAM",
-		"obsoleteTech": "Rocketry",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
-	},
-	{
-		"name": "Landship",
-		"unitType": "Armored",
-		"movement": 4,
-		"strength": 60,
-		"cost": 350,
-		"requiredTech": "Combustion",
-		"requiredResource": "Oil",
-		"upgradesTo": "Tank",
-		"obsoleteTech": "Combined Arms",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
 	},
 	{
 		"name": "Destroyer",
@@ -1303,7 +1285,7 @@
 		"movement": 2,
 		"strength": 65,
 		"cost": 400,
-		"requiredTech": "Pharmaceuticals",
+		"requiredTech": "Amphibious Warfare",
 		"promotions": ["Amphibious"],
 		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"],
 		"attackSound": "shot"
@@ -1386,7 +1368,7 @@
 		"movement": 5,
 		"strength": 70,
 		"cost": 375,
-		"requiredTech": "Combined Arms",
+		"requiredTech": "Armoured Warfare",
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
@@ -1400,7 +1382,7 @@
 		"movement": 6,
 		"strength": 80,
 		"cost": 375,
-		"requiredTech": "Combined Arms",
+		"requiredTech": "Armoured Warfare",
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
@@ -1413,7 +1395,7 @@
 		"movement": 2,
 		"strength": 50,
 		"cost": 300,
-		"requiredTech": "Combined Arms",
+		"requiredTech": "Armoured Warfare",
 		"upgradesTo": "Helicopter Gunship",
 		"uniques": ["[+100]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
@@ -1426,7 +1408,7 @@
 		"rangedStrength": 150,
 		"range": 10,
 		"cost": 600,
-		"requiredTech": "Nuclear Fission",
+		"requiredTech": "Fission",
 		"requiredResource": "Uranium",
 		"promotions" : ["Evasion"],
 		"uniques": ["Nuclear weapon of Strength [1]", "Only available <if [Manhattan Project] is constructed>", "Self-destructs when attacking",
@@ -1470,7 +1452,7 @@
 		"rangedStrength": 60,
 		"range": 8,
 		"cost": 150,
-		"requiredTech": "Advanced Ballistics",
+		"requiredTech": "Advanced Aviation",
 		"uniques": ["[-100]% maintenance costs"],
 		"attackSound": "missile"
 	},
@@ -1482,7 +1464,7 @@
 		"rangedStrength": 300,
 		"range": 12,
 		"cost": 1000,
-		"requiredTech": "Advanced Ballistics",
+		"requiredTech": "Fission",
 		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Manhattan Project] is constructed>",
 			"Blast radius [2]", "Consumes [2] [Uranium]"],
 		"attackSound": "nuke"
@@ -1495,7 +1477,7 @@
 		"movement": 6,
 		"strength": 60,
 		"cost": 425,
-		"requiredTech": "Computers",
+		"requiredTech": "Early Computing",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
 			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
@@ -1504,24 +1486,12 @@
 
 	// Information Era
 	{
-		"name": "Nuclear Submarine",
-		"unitType": "Submarine",
-		"movement": 6,
-		"strength": 50,
-		"range": 3,
-		"rangedStrength": 85,
-		"cost": 425,
-		"requiredTech": "Telecommunications",
-		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
-		"attackSound": "torpedo"
-	},
-	{
 		"name": "Mechanized Infantry",
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 90,
 		"cost": 375,
-		"requiredTech": "Mobile Tactics",
+		"requiredTech": "Mechanisied Warfare",
 		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -1548,7 +1518,6 @@
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"upgradesTo": "Giant Death Robot",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -1567,17 +1536,6 @@
 		"attackSound": "jetgun"
 	},
 	{
-		"name": "Giant Death Robot",
-		"unitType": "Armored",
-		"movement": 5,
-		"strength": 150,
-		"cost": 425,
-		"requiredTech": "Nuclear Fusion",
-		"requiredResource": "Uranium",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
-		"attackSound": "gdrAttack"
-	},
-	{
 		"name": "Stealth Bomber",
 		"unitType": "Bomber",
 		"movement": 2,
@@ -1585,7 +1543,7 @@
 		"rangedStrength": 85,
 		"range": 20,
 		"cost": 425,
-		"requiredTech": "Stealth",
+		"requiredTech": "Advanced Aviation",
 		"requiredResource": "Aluminum",
 		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "[+4] Sight", "Can see over obstacles"],
 		"attackSound": "bombing"
@@ -1677,7 +1635,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 750,
-		"requiredTech": "Advanced Ballistics",
+		"requiredTech": "Lunar Exploration",
 		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"]
 		// costs 1500 in BNW
@@ -1687,7 +1645,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 750,
-		"requiredTech": "Satellites",
+		"requiredTech": "Lunar Exploration",
 		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 		// costs 1500 in BNW
@@ -1697,7 +1655,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 750,
-		"requiredTech": "Particle Physics",
+		"requiredTech": "Lunar Exploration",
 		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 		// costs 1500 in BNW
@@ -1707,7 +1665,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 750,
-		"requiredTech": "Nanotechnology",
+		"requiredTech": "Lunar Exploration",
 		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 		// costs 1500 in BNW
