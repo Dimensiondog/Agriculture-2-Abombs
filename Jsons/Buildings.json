@@ -123,7 +123,6 @@
 		"requiredNearbyImprovedResources": ["Ivory","Horses"],
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "Trapping"
 	},
 	{
 		"name": "Water Mill",
@@ -243,7 +242,7 @@
 			"[+1 Production] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
 			"[+1 Production] from [Sheep] tiles [in this city]"],
-		"requiredTech": "Horseback Riding"
+		"requiredTech": "Horse Breeding"
 	},
 	{
 		"name": "Circus Maximus",
@@ -252,7 +251,7 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Colosseum] in all cities", "Cost increases by [30] per owned city"],
-		"requiredTech": "Horseback Riding"
+		"requiredTech": "Horse Breeding"
 	},
 	{
 		"name": "Courthouse",
@@ -347,7 +346,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Destroyed when the city is captured"],
-		"requiredTech": "Drama and Poetry"
+		"requiredTech": "Drama"
 	},
 	{
 		"name": "National Epic",
@@ -355,7 +354,7 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
-		"requiredTech": "Drama and Poetry"
+		"requiredTech": "Drama"
 	},
 	{
 		"name": "Market",
@@ -390,7 +389,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Gain a free [Amphitheater] [in this city]", "[+6 Culture] [in this city] <after discovering [Archaeology]>"],
+		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Gain a free [Amphitheater] [in this city]", "[+6 Culture] [in this city]"],
 		"requiredTech": "Currency",
 		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
 	},
@@ -639,7 +638,7 @@
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
-		"requiredTech": "Steel"
+		"requiredTech": "Armour Crafting"
 	},
 
 	// Renaissance Era
@@ -877,7 +876,7 @@
 		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"requiredResource": "Coal",
-		"requiredTech": "Industrialization"
+		"requiredTech": "Assembly Line"
 	},
 	{
 		"name": "Big Ben",
@@ -886,7 +885,7 @@
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isWonder": true,
 		"uniques": ["[Gold] cost of purchasing items in cities [-15]%"],
-		"requiredTech": "Industrialization",
+		"requiredTech": "Industrialism",
 		"quote": "'To achieve great things, two things are needed: a plan, and not quite enough time.' - Leonard Bernstein"
 	},
 	{
@@ -989,7 +988,7 @@
 		"isWonder": true,
 		"uniques": ["[+1 Happiness, +2 Culture, +3 Gold] from every [Castle]",
 			"Must have an owned [Mountain] within [2] tiles"],
-		"requiredTech": "Railroads",
+		"requiredTech": "Railroad",
 		"quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.' - King Ludwig II of Bavaria"
 	},
 	// Column 12
@@ -1019,7 +1018,7 @@
 		"name": "Medical Lab",
 		"requiredBuilding": "Hospital",
 		"maintenance": 3,
-		"requiredTech": "Pharmaceuticals",
+		"requiredTech": "Modern Healthcare",
 		"uniques": ["[25]% Food is carried over after population increases [in this city]"]
 	},
 	{
@@ -1027,7 +1026,7 @@
 		"cost": 750,
 		"isNationalWonder": true,
 		"uniques": ["Enables nuclear weapon", "Triggers a global alert upon completion"],
-		"requiredTech": "Atomic Theory"
+		"requiredTech": "Fission"
 	},
 	{
 		"name": "Pentagon",
@@ -1035,7 +1034,7 @@
 		"culture": 3,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>"],
-		"requiredTech": "Combined Arms",
+		"requiredTech": "Logistics",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
 	},
 	// Column 14
@@ -1070,7 +1069,7 @@
 		"requiredBuilding": "Factory",
 		"maintenance": 3,
 		"requiredResource": "Uranium",
-		"requiredTech": "Nuclear Fission",
+		"requiredTech": "Nuclear Power",
 		"uniques": ["Only available <in cities without a [Solar Plant]>"]
 	},
 	{
@@ -1091,14 +1090,14 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "Gain a free [Broadcast Tower] [in all cities]"],
-		"requiredTech": "Telecommunications",
+		"requiredTech": "Mass Media",
 		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
 	},
 	{
 		"name": "Bomb Shelter",
 		"cost": 300,
 		"maintenance": 1,
-		"requiredTech": "Telecommunications",
+		"requiredTech": "Radar",
 		"uniques": ["Population loss from nuclear attacks [-75]% [in this city]"]
 	},
 	{
@@ -1126,7 +1125,7 @@
 		"isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 2},
-		"requiredTech": "Globalization",
+		"requiredTech": "Globalisation",
 		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
