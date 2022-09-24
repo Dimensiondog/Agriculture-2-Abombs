@@ -41,15 +41,14 @@
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]"],
-		"requiredTech": "Pottery"
+		"requiredTech": "Bread Making"
 	},
 	{
 		"name": "Shrine",
 		"faith": 1,
 		"cost": 40,
 		"maintenance": 1,
-		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled"]
+		"requiredTech": "Ancestor Worship",
 	},
 	{
 		"name": "Pyramid",
