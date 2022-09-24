@@ -739,7 +739,7 @@
 
 	{
 		"columnNumber": 16,
-		"era": "Clasical era",
+		"era": "Classical era",
 		"techCost": 8800,
 		"buildingCost": 750,
 		"wonderCost": 1250,
@@ -802,7 +802,7 @@
 	},
 	{
 		"columnNumber": 18,
-		"era": "Clasical era",
+		"era": "Classical era",
 		"techCost": 9500,
 		"buildingCost": 750,
 		"wonderCost": 1250,
@@ -2062,7 +2062,7 @@
 		]
 	},	{
 		"columnNumber": 49,
-		"era": "Industial era",
+		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
 		"wonderCost": 1250,
