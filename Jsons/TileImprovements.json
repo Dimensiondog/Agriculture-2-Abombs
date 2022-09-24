@@ -8,7 +8,7 @@
 		"techRequired": "Agriculture",
 		"uniques": ["Can also be built on tiles adjacent to fresh water", 
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>"],
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Agrichemicals]>"],
 		"shortcutKey": "F"
 	},
 	{
@@ -43,7 +43,6 @@
 	{
 		"name": "Camp",
 		"turnsToBuild": 7,
-		"techRequired": "Trapping",
 		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Economics]>"],
 		"shortcutKey": "C"
 	},
@@ -58,8 +57,7 @@
 	{
 		"name": "Pasture",
 		"turnsToBuild": 8,
-		"techRequired": "Animal Husbandry",
-		"uniques": ["[+1 Food] <after discovering [Fertilizer]>"],
+		"uniques": ["[+1 Food] <after discovering [Agrichemicals]>"],
 		"shortcutKey": "P"
 	},
 	{
@@ -67,7 +65,7 @@
 		"turnsToBuild": 6,
 		"gold": 1,
 		"techRequired": "Calendar",
-		"uniques": ["[+1 Food] <after discovering [Fertilizer]>"],
+		"uniques": ["[+1 Food] <after discovering [Agrichemicals]>"],
 		"shortcutKey": "P"
 	},
 	{
@@ -81,7 +79,6 @@
 		"name": "Fishing Boats",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
-		"techRequired": "Sailing",
 		"uniques": ["[+1 Gold] <after discovering [Compass]>"]
 	},
 
@@ -112,7 +109,7 @@
 	{
 		"name": "Railroad",
 		"turnsToBuild": 4,
-		"techRequired": "Railroads",
+		"techRequired": "Railroad",
 		"uniques": ["Can be built outside your borders", "Costs [2] gold per turn when in your territory"],
 		"shortcutKey": "R",
         "civilopediaText": [{"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"}]
@@ -174,7 +171,7 @@
 	{
 		"name": "Academy",
 		"science": 8,
-		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>", "[+2 Science] <after discovering [Atomic Theory]>"]
+		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>", "[+2 Science] <after discovering [Modern Physics]>"]
 	},
 	{
 		"name": "Landmark",
@@ -221,7 +218,7 @@
 		"uniques": ["Cannot be built on [Bonus resource] tiles",
 			"[+1 Food] for each adjacent [Mountain]",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>"]
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Agrichemicals]>"]
 		"techRequired": "Construction",
 		"shortcutKey": "F"
 	},
