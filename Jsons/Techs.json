@@ -80,7 +80,7 @@
 				"row": 3,
 				"prerequisites": ["Ideograms"],
 					"uniques": [
-            "[+1] [Science] from every [Granary]",
+            "[+1 Science] from every [Granary]",
         ],
 				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
 			},
@@ -88,24 +88,34 @@
 				"name": "Pottery",
 				"row": 5,
 				"prerequisites": ["Agriculture"],
+									"uniques": [
+            "[+1 Culture] from every [Palace]","Enables conversion of city production to [Food]"
+        ],
 				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
 			},
 			{
 				"name": "Bread Making",
 				"row": 6,
 				"prerequisites": ["Agriculture"],
+				
 				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
 			},
 			{
 				"name": "Folk Music",
 				"row": 8,
 				"prerequisites": ["Community"],
+				"uniques": [
+            "[+1 Culture] from every [Palace]"
+        ],
 				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
 			},
 			{
 				"name": "Folk Dance",
 				"row": 9,
 				"prerequisites": ["Community"],
+				"uniques": [
+            "[+1 Happiness] from every [Palace]"
+        ],
 				"quote": "'How happy are those whose walls already rise!' - Virgil"
 			},
 			{
@@ -274,7 +284,7 @@
 				"name": "Oil Lamps",
 				"row": 2,
 				"prerequisites": ["Fermentation"],
-				"uniques": ["Enables conversion of city production to science","Enables Research agreements"],
+				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements"],
 				"quote": "'Education is the best provision for old age.' - Aristotle"
 			},
 			{
