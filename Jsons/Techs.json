@@ -89,7 +89,7 @@
 				"row": 5,
 				"prerequisites": ["Agriculture"],
 									"uniques": [
-            "[+1 Culture] from every [Palace]","Enables conversion of city production to [Food]"
+            "[+1 Culture] from every [Palace]"
         ],
 				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
 			},
