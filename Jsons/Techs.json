@@ -2364,7 +2364,7 @@
 			},
 			{
 				"name": "Advanced Metallurgy",
-				"row": 8,
+				"row": 10,
 				"prerequisites": ["Submarine Warfare"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
@@ -2824,7 +2824,7 @@
 			{
 				"name": "Counterculture",
 				"row": 5,
-				"prerequisites": ["Modern Sports","Legalized Gambling"],
+				"prerequisites": ["Modern Sports","Legalizied Gambling"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
