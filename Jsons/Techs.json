@@ -2030,7 +2030,7 @@
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
-				"name": "Bicycle",
+				"name": "Bicycles",
 				"row": 6,
 				"prerequisites": ["Mass Produced Steel"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
@@ -2651,7 +2651,7 @@
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
-				"name": "Laser",
+				"name": "Lasers",
 				"row": 10,
 				"prerequisites": ["Solar Power"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
