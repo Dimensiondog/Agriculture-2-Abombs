@@ -2830,7 +2830,7 @@
 			{
 				"name": "Microprocessor",
 				"row": 7,
-				"prerequisites": ["Climate Modeling","Fire Suppression],
+				"prerequisites": ["Climate Modeling","Fire Suppression"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
