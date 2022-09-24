@@ -123,6 +123,7 @@
 		"requiredNearbyImprovedResources": ["Ivory","Horses"],
 		"happiness": 2,
 		"hurryCostModifier": 25,
+				"cost": 65,
 	},
 	{
 		"name": "Water Mill",
