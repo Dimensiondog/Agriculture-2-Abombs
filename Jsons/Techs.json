@@ -1424,7 +1424,7 @@
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
-				"name": "Poliitcal Philosohpy",
+				"name": "Political Philosohpy",
 				"row": 5,
 				"prerequisites": ["Humanism"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
@@ -1470,7 +1470,7 @@
 			{
 				"name": "Divine Right",
 				"row": 5,
-				"prerequisites": ["Politcal Philosophy"],
+				"prerequisites": ["Political Philosophy"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
