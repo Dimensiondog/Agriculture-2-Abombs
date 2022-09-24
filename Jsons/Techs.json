@@ -289,7 +289,7 @@
 				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
 			},
 			{
-				"name": "Textile Loom",
+				"name": "Textile Looms",
 				"row": 5,
 				"prerequisites": ["Pulley"],
 				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
@@ -611,7 +611,7 @@
 			{
 				"name": "Classical Lifestyle",
 				"row": 5,
-				"prerequisites": ["Cloud Patterns","Linguistics","Glass Blowing","Hydraulic Mining","Monarchy","Reincarnation"],
+				"prerequisites": ["Cloud Patterns","Linguistics","Glassblowing","Hydraulic Mining","Monarchy","Reincarnation"],
 				"quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
 			}
 		]
@@ -717,7 +717,7 @@
 				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
 			},
 			{
-				"name": "Cyrptography",
+				"name": "Cryptography",
 				"row": 7,
 				"prerequisites": ["Mail"],
 				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
@@ -865,7 +865,7 @@
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
-				"name": "Canal System",
+				"name": "Canal Systems",
 				"row": 6,
 				"prerequisites": ["City Planning"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
@@ -1424,7 +1424,7 @@
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
-				"name": "Politcal Philosohpy",
+				"name": "Poliitcal Philosohpy",
 				"row": 5,
 				"prerequisites": ["Humanism"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
@@ -1518,7 +1518,7 @@
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
-				"name": "Critical Thoughts",
+				"name": "Critical Thought",
 				"row": 5,
 				"prerequisites": ["Divine Right","Jurisprudence"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
@@ -1608,13 +1608,13 @@
 			{
 				"name": "Chemistry",
 				"row": 6,
-				"prerequisites": ["Scientific Method"],
+				"prerequisites": ["Scientific Theory"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
 				"name": "Calculus",
 				"row": 7,
-				"prerequisites": ["Scientific Method","Patent Rights"],
+				"prerequisites": ["Scientific Theory","Patent Rights"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
@@ -2056,7 +2056,7 @@
 			{
 				"name": "Water Sports",
 				"row": 10,
-				"prerequisites": ["Combution"],
+				"prerequisites": ["Combustion"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 		]
@@ -2138,7 +2138,7 @@
 			{
 				"name": "Motion Pictures",
 				"row": 3,
-				"prerequisites": ["Refigeration"],
+				"prerequisites": ["Refrigeration"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
@@ -2182,7 +2182,7 @@
 			{
 				"name": "Compulsory Education",
 				"row": 1,
-				"prerequisites": ["Psycology"],
+				"prerequisites": ["Psychology"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
@@ -2206,13 +2206,13 @@
 			{
 				"name": "Mass Transit",
 				"row": 9,
-				"prerequisites": ["Psycology"],
+				"prerequisites": ["Motorisied Transport"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
 				"name": "Motor Sports",
 				"row": 10,
-				"prerequisites": ["Psycology"],
+				"prerequisites": ["Motorisied Transport"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 		]
@@ -2226,7 +2226,7 @@
 			{
 				"name": "Modern Lifestyle",
 				"row": 5,
-				"prerequisites": ["Motor Sports","Mass Transit", "Animation", "Expressionism", "Cubism","Compulsory Education","Gyrocompass","Radio","Foriegn Policy","Artillery"],
+				"prerequisites": ["Motor Sports","Mass Transit", "Animation", "Expressionism", "Cubism","Compulsory Education","Gyrocompass","Radio","Foreign Policy","Artillery"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 		]
@@ -2244,7 +2244,7 @@
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
-				"name": "Theory of relativity",
+				"name": "Theory of Relativity",
 				"row": 4,
 				"prerequisites": ["Modern Lifestyle"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
@@ -2409,7 +2409,7 @@
 			{
 				"name": "Amphibious Warfare",
 				"row": 6,
-				"prerequisites": ["Automatic Warfare"],
+				"prerequisites": ["Automatic Weapons"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
@@ -2585,7 +2585,7 @@
 			{
 				"name": "Solar Power",
 				"row": 9,
-				"prerequisites": ["Avaition"],
+				"prerequisites": ["Aviation"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
