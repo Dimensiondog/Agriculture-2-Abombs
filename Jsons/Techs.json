@@ -801,7 +801,7 @@
 		]
 	},
 	{
-		"columnNumber": 18,
+		"columnNumber": 17,
 		"era": "Classical era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -852,7 +852,7 @@
 		]
 	},
 	{
-		"columnNumber": 19,
+		"columnNumber": 18,
 		"era": "Classical era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -885,7 +885,7 @@
 
 		]
 	},	{
-		"columnNumber": 20,
+		"columnNumber": 19,
 		"era": "Classical era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -905,7 +905,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 21,
+		"columnNumber": 20,
 		"era": "Classical era",
 		"techCost": 9500,
 		"buildingCost": 750,
