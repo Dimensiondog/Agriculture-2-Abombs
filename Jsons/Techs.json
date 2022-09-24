@@ -2226,7 +2226,7 @@
 			{
 				"name": "Modern Lifestyle",
 				"row": 5,
-				"prerequisites": ["Motor Sports","Mass Transit", "Animation", "Expressionism", "Cubism","Compulsory Education","Gyrocompass","Radio","Foriegn Policy","Artillery],
+				"prerequisites": ["Motor Sports","Mass Transit", "Animation", "Expressionism", "Cubism","Compulsory Education","Gyrocompass","Radio","Foriegn Policy","Artillery"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 		]
