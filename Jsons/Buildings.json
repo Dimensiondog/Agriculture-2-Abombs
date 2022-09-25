@@ -20,6 +20,7 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"]
+		"requiredTech": "Heritage",
 	},
 	{
 		"name": "Stele",
@@ -31,6 +32,7 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"] //"Hidden when religion is disabled"
+		"requiredTech": "Heritage",
 	},
 	// Column 1
 	{
@@ -58,7 +60,7 @@
 		"science": 2,
 		"cost": 40,
 		"maintenance": 1,
-		"requiredTech": "Pottery",
+		"requiredTech": "Ancestor Worship",
 		"uniques": ["Hidden when religion is disabled"]
 	},
 	{
@@ -81,7 +83,7 @@
 		"uniques": ["Must not be on [Plains]",
 			"[+1 Production] from [Stone] tiles [in this city]",
 			"[+1 Production] from [Marble] tiles [in this city]"],
-		"requiredTech": "Calendar"
+		"requiredTech": "Masonry"
 	},
 	{
 		"name": "Stonehenge",
@@ -170,7 +172,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["[-25]% tile improvement construction time","[2] free [Worker] units appear"],
-		"requiredTech": "Masonry",
+		"requiredTech": "Mummification",
 		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
 	},
 	{
