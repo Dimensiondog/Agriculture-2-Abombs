@@ -452,7 +452,7 @@
 		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra"],
 		"gold": 2,
 		"improvement": "Mine",
-				"revealedBy": "Copper Mining",
+				"revealedBy": "Copper Working",
 		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [5] <in [Forest] Regions>",
