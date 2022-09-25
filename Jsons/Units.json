@@ -25,6 +25,7 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
+				"requiredTech": "Exploration",
 		"obsoleteTech": "Scientific Theory",
 		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
