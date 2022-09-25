@@ -1783,7 +1783,7 @@
 			{
 				"name": "Grand War",
 				"row": 8,
-				"prerequisites": ["Nationalism","Rifling"],
+				"prerequisites": ["Nationalism"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 		]
@@ -1803,7 +1803,7 @@
 		]
 	},	{
 		"columnNumber": 43,
-		"era": "Future era",
+		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
 		"wonderCost": 1250,
@@ -1899,7 +1899,7 @@
 			{
 				"name": "Screw Propeller",
 				"row": 9,
-				"prerequisites": ["Military Science","Marine Biology"],
+				"prerequisites": ["Marine Biology"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
