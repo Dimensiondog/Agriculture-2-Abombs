@@ -83,7 +83,7 @@
 		"uniques": ["Must not be on [Plains]",
 			"[+1 Production] from [Stone] tiles [in this city]",
 			"[+1 Production] from [Marble] tiles [in this city]"],
-		"requiredTech": "Masonry"
+		"requiredTech": "Pulley"
 	},
 	{
 		"name": "Stonehenge",
@@ -133,7 +133,7 @@
 		"production": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Must be on [River]"],
-		"requiredTech": "The Wheel"
+		"requiredTech": "Waterwheels"
 	},
 	{
 		"name": "Floating Gardens",
@@ -145,7 +145,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"percentStatBonus": {"food": 15},
-		"requiredTech": "The Wheel"
+		"requiredTech": "Waterwheels"
 	},
 	{
 		"name": "Walls",
