@@ -1300,7 +1300,7 @@
 			{
 				"name": "Education",
 				"row": 5,
-				"prerequisites": ["Perspective",],
+				"prerequisites": ["Perspective"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
