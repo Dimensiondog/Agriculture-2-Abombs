@@ -139,12 +139,6 @@
 		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "Apiculture",
-				"row": 3,
-				"prerequisites": ["Taxonomy"],
-				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
-			},
-			{
 				"name": "Mining",
 				"row": 4,
 				"prerequisites": ["Pottery"],
@@ -180,7 +174,7 @@
 			{
 				"name": "Orchards",
 				"row": 3,
-				"prerequisites": ["Apiculture"],
+				"prerequisites": ["Taxonomy"],
 				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
 			},
 			{
@@ -198,12 +192,6 @@
 			{
 				"name": "Heritage",
 				"row": 7,
-				"prerequisites": ["Ancestor Worship"],
-				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
-			},
-						{
-				"name": "Sacrifice Cult",
-				"row": 8,
 				"prerequisites": ["Ancestor Worship"],
 				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
 			},
