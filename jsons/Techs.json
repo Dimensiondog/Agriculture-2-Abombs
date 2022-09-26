@@ -253,11 +253,18 @@
 				"row": 7,
 				"prerequisites": ["Standardisation"],
 				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
+
+								        "uniques": [
+            "[-5]% tile improvement construction time",
+        ],
 			},
 			{
 				"name": "Board Games",
 				"row": 8,
 				"prerequisites": ["Heritage"],
+												        "uniques": [
+            "[+5 Happiness] [in capital]",
+        ],
 				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
 			}
 		]
