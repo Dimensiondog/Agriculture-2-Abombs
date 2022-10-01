@@ -333,12 +333,6 @@
 		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "Soap Making",
-				"row": 1,
-				"prerequisites": ["Oil Lamps","Folk Medicine"],
-				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
-			},
-			{
 				"name": "Piracy",
 				"row": 2,
 				"prerequisites": ["Plough"],
@@ -400,6 +394,7 @@
 				"name": "Duelism",
 				"row": 7,
 				"prerequisites": ["Priesthood"],
+				"uniques": ["Gain a free [Pantheon] belief"],
 				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
 			},
 			{
@@ -432,7 +427,7 @@
 			{
 				"name": "Specialisation",
 				"row": 3,
-				"prerequisites": ["Gardening","Soap Making","Piracy"],
+				"prerequisites": ["Gardening","Piracy"],
 				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
 			},
 			{
@@ -519,6 +514,7 @@
 				"name": "Magic",
 				"row": 9,
 				"prerequisites": ["Ressurection"],
+								"uniques": ["Gain a free [Pantheon] belief"],
 				"quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
 			}
 		]
@@ -576,6 +572,7 @@
 				"name": "Polytheism",
 				"row": 10,
 				"prerequisites": ["Magic"],
+				"uniques": ["Gain a free [Pantheon] belief"],
 				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
 			}
 		]
