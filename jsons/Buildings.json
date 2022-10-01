@@ -295,7 +295,7 @@
 		"requiredBuilding": "Shrine",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy",
+		"requiredTech": "Priesthood",
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
 	},
 	{
@@ -308,7 +308,7 @@
 		"happiness": 2,
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy"
+		"requiredTech": "Priesthood"
 	},
 	{
 		"name": "Mud Pyramid Mosque",
@@ -319,7 +319,7 @@
 		"culture": 2,
 		"faith": 2,
 		"requiredBuilding": "Shrine",
-		"requiredTech": "Philosophy"
+		"requiredTech": "Priesthood"
 	},
 	{
 		"name": "National College",
@@ -527,7 +527,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Iron"],
-		"requiredTech": "Metal Casting",
+		"requiredTech": "Smithing",
 		"uniques": ["[+15]% Production when constructing [Spaceship part] units [in this city]",
 			"[+15]% Production when constructing [Land] units [in this city]",
 			"[+1 Production] from [Iron] tiles [in this city]"]
