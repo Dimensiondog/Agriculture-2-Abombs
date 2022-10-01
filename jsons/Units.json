@@ -202,14 +202,14 @@
 	},
 	{
 		"name": "Galley",
-		"unitType": "Melee Water",
-		"uniqueTo": "Barbarians",
-		"movement": 3,
-		"strength": 7,
-		"cost": 40,
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 8,
+		"rangedStrength": 8,
+		"cost": 56,
 		"uniques": ["Cannot enter ocean tiles"],
-		"upgradesTo": "Trireme",
 		"obsoleteTech": "Astronomy",
+		"requiredTech": "Piracy",
 		"attackSound": "nonmetalhit"
 		//Barbarian unique naval unit, weaker and slower than Trireme.
 	},
