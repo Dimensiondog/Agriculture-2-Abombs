@@ -348,6 +348,7 @@
 				"name": "Irrigation",
 				"row": 3,
 				"prerequisites": ["Plough","Metal Casting"],
+						"uniques": ["[+1 Production] from [River] tiles [in this city]"],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			},
 			{
