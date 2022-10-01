@@ -280,7 +280,10 @@
 				"name": "Folk Medicine",
 				"row": 1,
 				"prerequisites": ["Fermentation"],
-				            "[5] HP when healing <before discovering [Battlefield Medicine]> ",
+				           
+				    "uniques": [
+        "[5] HP when healing <before discovering [Battlefield Medicine]> ",
+        ],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
 			},
 			{
