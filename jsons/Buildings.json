@@ -52,6 +52,22 @@
 		"requiredTech": "Fermentation"
 	},
 	{
+		"name": "Furniture Maker",
+		"production": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 gold] from [Lumber Mill] tiles [in this city]"],
+		"requiredTech": "Furniture Making"
+	},
+	{
+		"name": "Mulberry Orchard",
+		"Food": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 gold, +2 Culture] from [Silk] tiles [in this city]"],
+		"requiredTech": "Sericulture"
+	},
+	{
 		"name": "Potter",
 		"culture": 1,
 		"maintenance": 1,
@@ -72,6 +88,31 @@
 		"faith": 1,
 		"maintenance": 1,
 		"requiredTech": "Scriptures",
+	},
+	{
+		"name": "Loom",
+		"production": 1,
+		"requiredNearbyImprovedResources": ["Silk", "Cotton","Dyes"],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+1 Culture] from [Silk] tiles [in this city]",
+			"[+1 Culture] from [Dyes] tiles [in this city]",
+			"[+1 Production] from [Cotton] tiles [in this city]"],
+		"requiredTech": "Textile Loom"
+	},
+	{
+		"name": "Lodge",
+		"happiness": 1,
+		"food": 1,
+		"requiredNearbyImprovedResources": ["Deer", "Ivory","Furs"],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Gold] from [Ivory] tiles [in this city]",
+			"[+1 Gold] from [Ivory] tiles [in this city]",],
+		"requiredTech": "Exploration"
 	},
 	{
 		"name": "Bronze Foundry",
@@ -109,7 +150,7 @@
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["Must not be on [Plains]",
+		"uniques": [
 			"[+1 Production] from [Stone] tiles [in this city]",
 			"[+1 Production] from [Marble] tiles [in this city]"],
 		"requiredTech": "Pulley"
