@@ -27,19 +27,19 @@
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
-				"name": "Ideograms",
+				"name": "Agriculture",
 				"row": 3,
+				"prerequisites": ["Sedentry Lifestyle"],
+				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+			},
+			{
+				"name": "Ideograms",
+				"row": 5,
 				"prerequisites": ["Sedentry Lifestyle"],
 				"uniques": [
             "[+1 Science] [in capital]",
         ],
 				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
-			},
-			{
-				"name": "Agriculture",
-				"row": 5,
-				"prerequisites": ["Sedentry Lifestyle"],
-				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
 			},
 			{
 				"name": "Folk Music",
@@ -63,9 +63,7 @@
 				"name": "Caste System",
 				"row": 10,
 				"prerequisites": ["Sedentry Lifestyle"],
-								"uniques": [
-            "[+1 Production,-1 Happiness][in all cities] "
-        ],
+				"uniques": ["[+2 Faith, -1 Happiness] per [5] population [in all cities]","Only available<if no other Civilization has researched this>"],
 				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
 			}
 		]
@@ -93,7 +91,7 @@
 			{
 				"name": "Pottery",
 				"row": 5,
-				"prerequisites": ["Agriculture"],
+				"prerequisites": ["Agriculture","Ideograms"],
 									"uniques": [
             "[+1 Culture] from every [Palace]"
         ],
@@ -178,6 +176,7 @@
 				"name": "Mummification",
 				"row": 9,
 				"prerequisites": ["Ancestor Worship"],
+				"uniques": ["Only available<if no other Civilization has researched this>"],
 				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
 			},
 		]
@@ -241,7 +240,7 @@
 			{
 				"name": "Oil Lamps",
 				"row": 2,
-				"prerequisites": ["Fermentation"],
+				"prerequisites": ["Fermentation","Trade"],
 				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements"],
 				"quote": "'Education is the best provision for old age.' - Aristotle"
 			},
@@ -261,6 +260,7 @@
 				"name": "Salt Processing",
 				"row": 6,
 				"prerequisites": ["Masonry"],
+				"uniques": ["[+1 Production, +1 Food, +1 Gold] from [Salt] tiles [in all cities]","Only available<if no other Civilization has researched this>"],
 				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
 			},
 			{
@@ -301,13 +301,8 @@
 				"name": "Sericulture",
 				"row": 5,
 				"prerequisites": ["Textile Looms"],
+				"uniques": ["Only available<if no other Civilization has researched this>"],
 				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
-			},
-			{
-				"name": "Divination",
-				"row": 9,
-				"prerequisites": ["Priesthood"],
-				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
 			},
 			{
 				"name": "Candle Making",
@@ -379,6 +374,7 @@
 				"name": "Hydraulic Mining",
 				"row": 4,
 				"prerequisites": ["Furniture Making"],
+				"uniques": ["[+1 Production] from [Mine] tiles [in all cities]","Only available<if no other Civilization has researched this>"],
 				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
 			},
 			{
@@ -391,17 +387,13 @@
 				"name": "Monotheism",
 				"row": 6,
 				"prerequisites": ["Writing"],
+				"uniques": ["Gain enough Faith for [100]% of a Great Prophet","Only available<if no other Civilization has researched this>"],
+
 				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
 			},
 			{
 				"name": "Scriptures",
 				"row": 7,
-				"prerequisites": ["Writing"],
-				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
-			},
-			{
-				"name": "Karma",
-				"row": 8,
 				"prerequisites": ["Writing"],
 				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
 			},
@@ -415,7 +407,7 @@
 				"name": "Polytheism",
 				"row": 10,
 				"prerequisites": ["Writing"],
-				"uniques": ["Gain a free [Pantheon] belief"],
+				"uniques": ["Gain a free [Pantheon] belief","Only available<if no other Civilization has researched this>"],
 				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
 			}
 		]
