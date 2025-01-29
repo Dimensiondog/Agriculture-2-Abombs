@@ -44,7 +44,7 @@
 			{
 				"name": "Folk Music",
 				"row": 8,
-				"prerequisites": ["Sedantry Lifestyle"],
+				"prerequisites": ["Sedentry Lifestyle"],
 				"uniques": [
             "[+1 Culture] from every [Palace]"
         ],
@@ -53,7 +53,7 @@
 			{
 				"name": "Folk Dance",
 				"row": 9,
-				"prerequisites": ["Sedantry Lifestyle"],
+				"prerequisites": ["Sedentry Lifestyle"],
 				"uniques": [
             "[+1 Happiness] from every [Palace]"
         ],
@@ -62,7 +62,7 @@
 			{
 				"name": "Caste System",
 				"row": 10,
-				"prerequisites": ["Sedantry Lifestyle"],
+				"prerequisites": ["Sedentry Lifestyle"],
 								"uniques": [
             "[+1 Production,-1 Happiness][in all cities] "
         ],
@@ -414,7 +414,7 @@
 			{
 				"name": "Polytheism",
 				"row": 10,
-				"prerequisites": ["Magic"],
+				"prerequisites": ["Writing"],
 				"uniques": ["Gain a free [Pantheon] belief"],
 				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
 			}
@@ -450,7 +450,7 @@
 			{
 				"name": "Classical Lifestyle",
 				"row": 5,
-				"prerequisites": ["Cloud Patterns","Linguistics","Glassblowing","Hydraulic Mining","Monarchy","Reincarnation"],
+				"prerequisites": ["Cloud Patterns","Glassblowing","Cuisine","Scriptures"],
 				"quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
 			}
 		]
