@@ -56,7 +56,7 @@
 		"production": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 gold] from [Lumber Mill] tiles [in this city]"],
+		"uniques": ["[+1 gold] from [Lumber mill] tiles [in this city]"],
 		"requiredTech": "Furniture Making"
 	},
 	{
@@ -99,7 +99,7 @@
 			"[+1 Culture] from [Silk] tiles [in this city]",
 			"[+1 Culture] from [Dyes] tiles [in this city]",
 			"[+1 Production] from [Cotton] tiles [in this city]"],
-		"requiredTech": "Textile Loom"
+		"requiredTech": "Textile Looms"
 	},
 	{
 		"name": "Lodge",
