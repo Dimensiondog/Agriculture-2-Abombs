@@ -27,17 +27,6 @@
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
-				"name": "Negotiation",
-				"row": 2,
-				"prerequisites": ["Sedentry Lifestyle"],
-				        "uniques": [
-            "[+1 Happiness] [in capital]",
- "[-5]% Culture cost of natural border growth [in all cities]"
-
-        ],
-				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
-			},
-			{
 				"name": "Ideograms",
 				"row": 3,
 				"prerequisites": ["Sedentry Lifestyle"],
@@ -51,16 +40,34 @@
 				"row": 5,
 				"prerequisites": ["Sedentry Lifestyle"],
 				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
-			}
-			{
-				"name": "Community",
-				"row": 9,
-   "uniques": [
-            "[+1 Happiness] [in capital]",
-        ],
-				"prerequisites": ["Sedentry Lifestyle"],
-				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
 			},
+			{
+				"name": "Folk Music",
+				"row": 8,
+				"prerequisites": ["Sedantry Lifestyle"],
+				"uniques": [
+            "[+1 Culture] from every [Palace]"
+        ],
+				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+			},
+			{
+				"name": "Folk Dance",
+				"row": 9,
+				"prerequisites": ["Sedantry Lifestyle"],
+				"uniques": [
+            "[+1 Happiness] from every [Palace]"
+        ],
+				"quote": "'How happy are those whose walls already rise!' - Virgil"
+			},
+			{
+				"name": "Caste System",
+				"row": 10,
+				"prerequisites": ["Sedantry Lifestyle"],
+								"uniques": [
+            "[+1 Production,-1 Happiness][in all cities] "
+        ],
+				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+			}
 		]
 	},
 	{
@@ -73,17 +80,15 @@
 			{
 				"name": "Naval Warfare",
 				"row": 1,
-				"prerequisites": ["Archery","Negotiation"],
+				"prerequisites": ["Archery"],
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
 			},
 			{
-				"name": "Taxonomy",
-				"row": 3,
-				"prerequisites": ["Ideograms"],
-					"uniques": [
-            "[+1 Science] from every [Granary]",
-        ],
-				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
+				"name": "Bread Making",
+				"row": 4,
+				"prerequisites": ["Agriculture"],
+				
+				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
 			},
 			{
 				"name": "Pottery",
@@ -94,40 +99,6 @@
         ],
 				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
 			},
-			{
-				"name": "Bread Making",
-				"row": 6,
-				"prerequisites": ["Agriculture"],
-				
-				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
-			},
-			{
-				"name": "Folk Music",
-				"row": 8,
-				"prerequisites": ["Community"],
-				"uniques": [
-            "[+1 Culture] from every [Palace]"
-        ],
-				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
-			},
-			{
-				"name": "Folk Dance",
-				"row": 9,
-				"prerequisites": ["Community"],
-				"uniques": [
-            "[+1 Happiness] from every [Palace]"
-        ],
-				"quote": "'How happy are those whose walls already rise!' - Virgil"
-			},
-			{
-				"name": "Caste System",
-				"row": 10,
-				"prerequisites": ["Community"],
-								"uniques": [
-            "[+1 Production,-1 Happiness][in all cities] "
-        ],
-				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
-			}
 		]
 	},
 	{
@@ -137,6 +108,18 @@
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
+			{
+				"name": "Exploration",
+				"row": 1,
+				"prerequisites": ["Naval Warfare"],
+				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+			},
+			{
+				"name": "Orchards",
+				"row": 3,
+				"prerequisites": ["Bread Making"],
+				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
+			},
 			{
 				"name": "Mining",
 				"row": 4,
@@ -152,7 +135,7 @@
 			{
 				"name": "Ancestor Worship",
 				"row": 8,
-				"prerequisites": ["Folk Music","Folk Dance","Caste System"],
+				"prerequisites": ["Pottery"],
 				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
 			}
 		]
@@ -165,28 +148,25 @@
 		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "Exploration",
+				"name": "Stargazing",
 				"row": 1,
-				"prerequisites": ["Naval Warfare"],
-				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+				"prerequisites": ["Exploration"],
+			"uniques": [
+            "[+1] Movement <for [Water] units>"
+        ],
+				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
 			},
 			{
-				"name": "Orchards",
-				"row": 3,
-				"prerequisites": ["Taxonomy"],
-				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
+				"name": "Trade",
+				"row": 2,
+				"prerequisites": ["Exploration"],
+				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
 			},
 			{
 				"name": "Chariotry",
 				"row": 5,
 				"prerequisites": ["The Wheel"],
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
-			},
-			{
-				"name": "Standardisation",
-				"row": 6,
-				"prerequisites": ["The Wheel"],
-				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
 			{
 				"name": "Heritage",
@@ -210,21 +190,6 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Stargazing",
-				"row": 1,
-				"prerequisites": ["Exploration"],
-			"uniques": [
-            "[+1] Movement <for [Water] units>"
-        ],
-				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
-			},
-			{
-				"name": "Trade",
-				"row": 2,
-				"prerequisites": ["Exploration"],
-				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
-			},
-			{
 				"name": "Fermentation",
 				"row": 3,
 				"prerequisites": ["Orchards"],
@@ -245,27 +210,14 @@
 			{
 				"name": "Masonry",
 				"row": 6,
-				"prerequisites": ["Standardisation"],
+				"prerequisites": ["The Wheel"],
 				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
 			},
 			{
-				"name": "Lead Working",
-				"row": 7,
-				"prerequisites": ["Standardisation"],
-				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
-
-								        "uniques": [
-            "[-5]% tile improvement construction time",
-        ],
-			},
-			{
-				"name": "Board Games",
+				"name": "Ceremony",
 				"row": 8,
 				"prerequisites": ["Heritage"],
-												        "uniques": [
-            "[+5 Happiness] [in capital]",
-        ],
-				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
+				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
 			}
 		]
 	},
@@ -294,12 +246,6 @@
 				"quote": "'Education is the best provision for old age.' - Aristotle"
 			},
 			{
-				"name": "Plough",
-				"row": 3,
-				"prerequisites": ["Copper Working"],
-				"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
-			},
-			{
 				"name": "Metal Casting",
 				"row": 4,
 				"prerequisites": ["Copper Working"],
@@ -318,10 +264,10 @@
 				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
 			},
 			{
-				"name": "Ceremony",
-				"row": 8,
-				"prerequisites": ["Board Games"],
-				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
+				"name": "Priesthood",
+				"row": 9,
+				"prerequisites": ["Ceremony"],
+				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
 			}
 		]
 	},
@@ -335,14 +281,14 @@
 			{
 				"name": "Piracy",
 				"row": 2,
-				"prerequisites": ["Plough"],
+				"prerequisites": ["Oil Lamps"],
 				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
 			},
 			{
 				"name": "Irrigation",
 				"row": 3,
-				"prerequisites": ["Plough","Metal Casting"],
-						"uniques": ["[+1 Production] from [River] tiles [in this city]"],
+				"prerequisites": ["Metal Casting"],
+						"uniques": ["[+1 Food] from [River] tiles [in this city]"],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			},
 			{
@@ -358,10 +304,16 @@
 				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
 			},
 			{
-				"name": "Priesthood",
+				"name": "Divination",
 				"row": 9,
-				"prerequisites": ["Ceremony"],
-				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
+				"prerequisites": ["Priesthood"],
+				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
+			},
+			{
+				"name": "Candle Making",
+				"row": 10,
+				"prerequisites": ["Priesthood"],
+				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
 			}
 		]
 	},
@@ -381,40 +333,27 @@
 			{
 				"name": "Leisure",
 				"row": 4,
-				"prerequisites": ["Sericulture","Sculpture"],
+				"prerequisites": ["Sculpture"],
 				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
 			},
 			{
-				"name": "Ornamentation",
+				"name": "Sundial",
 				"row": 5,
-				"prerequisites": ["Sericulture"],
-				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
+				"prerequisites": ["Sculpture"],
+				"quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
 			},
 			{
-				"name": "Duelism",
+				"name": "Furniture Making",
+				"row": 6,
+				"prerequisites": ["Sculpture"],
+				"quote": "'Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch"
+			},
+			{
+				"name": "Writing",
 				"row": 7,
-				"prerequisites": ["Priesthood"],
-				"uniques": ["Gain a free [Pantheon] belief"],
-				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
+				"prerequisites": ["Sculpture","Priesthood"],
+				"quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee"
 			},
-			{
-				"name": "Oratory",
-				"row": 8,
-				"prerequisites": ["Priesthood"],
-				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
-			},
-			{
-				"name": "Divination",
-				"row": 9,
-				"prerequisites": ["Priesthood"],
-				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
-			},
-			{
-				"name": "Candle Making",
-				"row": 10,
-				"prerequisites": ["Priesthood"],
-				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
-			}
 		]
 	},
 	{
@@ -425,72 +364,22 @@
 		"wonderCost": 750,
 		"techs": [
 			{
-				"name": "Specialisation",
-				"row": 3,
-				"prerequisites": ["Gardening","Piracy"],
-				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
-			},
-			{
-				"name": "Sundial",
-				"row": 4,
-				"prerequisites": ["Ornamentation"],
-				"quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
-			},
-			{
-				"name": "Furniture Making",
-				"row": 6,
-				"prerequisites": ["Ornamentation"],
-				"quote": "'Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch"
-			},
-			{
-				"name": "Writing",
-				"row": 7,
-				"prerequisites": ["Ornamentation","Duelism"],
-				"quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee"
-			},
-			{
-				"name": "Matriarchy",
-				"row": 9,
-				"prerequisites": ["Duelism","Oratory"],
-				"quote": "'Wars may be fought with weapons, but they are won by men. It is the spirit of the men who follow and of the man who leads that gains the victory.' - George S. Patton"
-			},
-			{
-				"name": "Ressurection",
-				"row": 10,
-				"prerequisites": ["Divination","Oratory"],
-				"quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt"
-			}
-		]
-	},
-	{
-		"columnNumber": 10,
-		"era": "Ancient era",
-		"techCost": 94,
-		"buildingCost": 360,
-		"techs": [
-			{
-				"name": "Locks",
+				"name": "Seafaring",
 				"row": 1,
-				"prerequisites": ["Specialisation"],
-				"quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson"
+				"prerequisites": ["Piracy"], 
+				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
 			},
 			{
 				"name": "Bronze Working",
 				"row": 2,
-				"prerequisites": ["Specialisation"],
+				"prerequisites": ["Sundial"],
 				"quote": "'Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
 			},
 			{
-				"name": "Plumbing",
-				"row": 3,
-				"prerequisites": ["Specialisation"],
-				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
-			},
-			{
-				"name": "Gear",
+				"name": "Hydraulic Mining",
 				"row": 4,
-				"prerequisites": ["Specialisation","Furniture Making"],
-				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
+				"prerequisites": ["Furniture Making"],
+				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
 			},
 			{
 				"name": "Cuisine",
@@ -505,67 +394,21 @@
 				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
 			},
 			{
-				"name": "Patriarchy",
-				"row": 8,
-				"prerequisites": ["Matriarchy"],
-				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
-			},
-			{
-				"name": "Magic",
-				"row": 9,
-				"prerequisites": ["Ressurection"],
-								"uniques": ["Gain a free [Pantheon] belief"],
-				"quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
-			}
-		]
-	},
-	{
-		"columnNumber": 11,
-		"era": "Ancient era",
-		"techCost": 105,
-		"buildingCost": 500,
-		"wonderCost": 1060,
-		"techs": [
-			{
-				"name": "Seafaring",
-				"row": 1,
-				"prerequisites": ["Locks", "Bronze Working"], //todo: offshore platform should need this
-				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
-			},
-			{
-				"name": "Brass Working",
-				"row": 2,
-				"prerequisites": ["Bronze Working"],
-				"quote": "'The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
-			},
-			{
-				"name": "Central Heating",
-				"row": 3,
-				"prerequisites": ["Plumbing","Bronze Working"],
-				"quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
-			},
-			{
-				"name": "Hydraulic Mining",
-				"row": 4,
-				"prerequisites": ["Gear","Plumbing"],
-				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
-			},
-			{
 				"name": "Scriptures",
 				"row": 7,
-				"prerequisites": ["Monotheism"],
+				"prerequisites": ["Writing"],
 				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
 			},
 			{
 				"name": "Karma",
 				"row": 8,
-				"prerequisites": ["Magic"],
+				"prerequisites": ["Writing"],
 				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
 			},
 			{
 				"name": "Ventinary Medicine",
 				"row": 9,
-				"prerequisites": ["Magic"],
+				"prerequisites": ["Writing"],
 				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
 			},
 			{
@@ -578,11 +421,10 @@
 		]
 	},
 	{
-		"columnNumber": 12,
+		"columnNumber": 10,
 		"era": "Ancient era",
-		"techCost": 131,
-		"buildingCost": 500,
-		"wonderCost": 1250,
+		"techCost": 94,
+		"buildingCost": 360,
 		"techs": [
 			{
 				"name": "Cloud Patterns",
@@ -591,33 +433,15 @@
 				"quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate"
 			},
 			{
-				"name": "Linguistics",
-				"row": 2,
-				"prerequisites": ["Seafaring"],
-				"quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
-			},
-			{
 				"name": "Glassblowing",
 				"row": 3,
-				"prerequisites": ["Central Heating","Brass Working"],
+				"prerequisites": ["Bronze Working"],
 				"quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
 			},
-			{
-				"name": "Monarchy",
-				"row": 6,
-				"prerequisites": ["Scriptures"],
-				"quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
-			},
-			{
-				"name": "Reincarnation",
-				"row": 8,
-				"prerequisites": ["Scriptures","Karma","Ventinary Medicine","Polytheism"],
-				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
-			}
 		]
 	},
 	{
-		"columnNumber": 13,
+		"columnNumber": 11,
 		"era": "Classical era",
 		"techCost": 150,
 		"buildingCost": 500,
@@ -632,7 +456,7 @@
 		]
 	},
 	{
-		"columnNumber": 14,
+		"columnNumber": 12,
 		"era": "Classical era",
 		"techCost": 6400,
 		"buildingCost": 500,
@@ -687,6 +511,12 @@
 				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
 			},
 			{
+				"name": "Plough",
+				"row": 9,
+				"prerequisites": ["Classical Lifestyle"],
+				"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
+			},
+			{
 				"name": "Meditation",
 				"row": 10,
 				"prerequisites": ["Classical Lifestyle"],
@@ -695,7 +525,7 @@
 		]
 	},
 	{
-		"columnNumber": 15,
+		"columnNumber": 13,
 		"era": "Classical era",
 		"techCost": 7700,
 		"buildingCost": 750,
@@ -753,7 +583,7 @@
 	},
 
 	{
-		"columnNumber": 16,
+		"columnNumber": 14,
 		"era": "Classical era",
 		"techCost": 8800,
 		"buildingCost": 750,
@@ -816,7 +646,7 @@
 		]
 	},
 	{
-		"columnNumber": 17,
+		"columnNumber": 15,
 		"era": "Classical era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -867,7 +697,7 @@
 		]
 	},
 	{
-		"columnNumber": 18,
+		"columnNumber": 16,
 		"era": "Classical era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -900,7 +730,7 @@
 
 		]
 	},	{
-		"columnNumber": 19,
+		"columnNumber": 17,
 		"era": "Classical era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -920,7 +750,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 20,
+		"columnNumber": 18,
 		"era": "Classical era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -964,7 +794,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 21,
+		"columnNumber": 19,
 		"era": "Classical era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1002,7 +832,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 22,
+		"columnNumber": 20,
 		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1016,7 +846,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 23,
+		"columnNumber": 21,
 		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1060,7 +890,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 24,
+		"columnNumber": 22,
 		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1098,7 +928,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 25,
+		"columnNumber": 23,
 		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1136,7 +966,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 26,
+		"columnNumber": 24,
 		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1186,7 +1016,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 27,
+		"columnNumber": 25,
 		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1230,7 +1060,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 28,
+		"columnNumber": 26,
 		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1274,7 +1104,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 29,
+		"columnNumber": 27,
 		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1324,7 +1154,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 30,
+		"columnNumber": 28,
 		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1362,7 +1192,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 31,
+		"columnNumber": 29,
 		"era": "Renaissance era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1376,7 +1206,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 32,
+		"columnNumber": 30,
 		"era": "Renaissance era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1414,7 +1244,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 33,
+		"columnNumber": 31,
 		"era": "Renaissance era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1458,7 +1288,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 34,
+		"columnNumber": 32,
 		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1514,7 +1344,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 35,
+		"columnNumber": 33,
 		"era": "Renaissance era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1558,7 +1388,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 36,
+		"columnNumber": 34,
 		"era": "Renaissance era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1602,7 +1432,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 37,
+		"columnNumber": 35,
 		"era": "Renaissance era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1640,7 +1470,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 38,
+		"columnNumber": 36,
 		"era": "Renaissance era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1678,7 +1508,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 39,
+		"columnNumber": 37,
 		"era": "Renaissance era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1734,7 +1564,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 40,
+		"columnNumber": 38,
 		"era": "Renaissance era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1766,7 +1596,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 41,
+		"columnNumber": 39,
 		"era": "Renaissance era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1792,7 +1622,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 42,
+		"columnNumber": 40,
 		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1806,7 +1636,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 43,
+		"columnNumber": 41,
 		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1844,7 +1674,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 44,
+		"columnNumber": 42,
 		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1876,7 +1706,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 45,
+		"columnNumber": 43,
 		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1914,7 +1744,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 46,
+		"columnNumber": 44,
 		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1964,7 +1794,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 47,
+		"columnNumber": 45,
 		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2020,7 +1850,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 48,
+		"columnNumber": 46,
 		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2076,7 +1906,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 49,
+		"columnNumber": 47,
 		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2138,7 +1968,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 50,
+		"columnNumber": 48,
 		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2188,7 +2018,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 51,
+		"columnNumber": 49,
 		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2232,7 +2062,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 52,
+		"columnNumber": 50,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2246,7 +2076,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 53,
+		"columnNumber": 51,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2285,7 +2115,7 @@
 			
 		]
 	},	{
-		"columnNumber": 54,
+		"columnNumber": 52,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2329,7 +2159,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 55,
+		"columnNumber": 53,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2385,7 +2215,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 56,
+		"columnNumber": 54,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2453,7 +2283,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 57,
+		"columnNumber": 55,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2497,7 +2327,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 58,
+		"columnNumber": 56,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2535,7 +2365,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 59,
+		"columnNumber": 57,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2573,7 +2403,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 60,
+		"columnNumber": 58,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2611,7 +2441,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 61,
+		"columnNumber": 59,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2674,7 +2504,7 @@
 			
 		]
 	},	{
-		"columnNumber": 62,
+		"columnNumber": 60,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2724,7 +2554,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 63,
+		"columnNumber": 61,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2762,7 +2592,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 64,
+		"columnNumber": 62,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2812,7 +2642,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 65,
+		"columnNumber": 63,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2856,7 +2686,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 66,
+		"columnNumber": 64,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
