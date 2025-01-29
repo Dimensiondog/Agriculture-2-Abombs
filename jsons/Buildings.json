@@ -70,9 +70,16 @@
 	{
 		"name": "Shrine",
 		"faith": 1,
-		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Scriptures",
+	},
+	{
+		"name": "Bronze Foundry",
+		"production": 2,
+		"requiredNearbyImprovedResources": ["Copper"],
+		"maintenance": 2,
+		"uniques": ["Provides [1] [Bronze]"],
+		"requiredTech": "Copper Working",
 	},
 	{
 		"name": "Pyramid",
