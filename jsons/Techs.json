@@ -158,6 +158,9 @@
 				"name": "Trade",
 				"row": 2,
 				"prerequisites": ["Exploration"],
+			"uniques": [
+            "Enables Open Borders agreements"
+        ],
 				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
 			},
 			{
@@ -304,12 +307,6 @@
 				"uniques": ["Only available<if no other Civilization has researched this>"],
 				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
 			},
-			{
-				"name": "Candle Making",
-				"row": 10,
-				"prerequisites": ["Priesthood"],
-				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
-			}
 		]
 	},
 	{
@@ -330,12 +327,6 @@
 				"row": 4,
 				"prerequisites": ["Sculpture"],
 				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
-			},
-			{
-				"name": "Sundial",
-				"row": 5,
-				"prerequisites": ["Sculpture"],
-				"quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
 			},
 			{
 				"name": "Furniture Making",
@@ -362,13 +353,20 @@
 				"name": "Seafaring",
 				"row": 1,
 				"prerequisites": ["Piracy"], 
+				"uniques": ["Enables embarkation for land units"],
 				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
 			},
 			{
 				"name": "Bronze Working",
 				"row": 2,
-				"prerequisites": ["Sundial"],
+				"prerequisites": ["Leisure"],
 				"quote": "'Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
+			},
+			{
+				"name": "Glassblowing",
+				"row": 3,
+				"prerequisites": ["Bronze Working"],
+				"quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
 			},
 			{
 				"name": "Hydraulic Mining",
@@ -378,7 +376,7 @@
 				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
 			},
 			{
-				"name": "Cuisine",
+				"name": "Plumbing",
 				"row": 5,
 				"prerequisites": ["Writing"],
 				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
@@ -398,12 +396,6 @@
 				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
 			},
 			{
-				"name": "Ventinary Medicine",
-				"row": 9,
-				"prerequisites": ["Writing"],
-				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
-			},
-			{
 				"name": "Polytheism",
 				"row": 10,
 				"prerequisites": ["Writing"],
@@ -414,26 +406,6 @@
 	},
 	{
 		"columnNumber": 10,
-		"era": "Ancient era",
-		"techCost": 94,
-		"buildingCost": 360,
-		"techs": [
-			{
-				"name": "Cloud Patterns",
-				"row": 1,
-				"prerequisites": ["Seafaring"],
-				"quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate"
-			},
-			{
-				"name": "Glassblowing",
-				"row": 3,
-				"prerequisites": ["Bronze Working"],
-				"quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
-			},
-		]
-	},
-	{
-		"columnNumber": 11,
 		"era": "Classical era",
 		"techCost": 150,
 		"buildingCost": 500,
@@ -442,13 +414,13 @@
 			{
 				"name": "Classical Lifestyle",
 				"row": 5,
-				"prerequisites": ["Cloud Patterns","Glassblowing","Cuisine","Scriptures"],
+				"prerequisites": ["Bronze Working","Glassblowing","Scriptures","Plumbing"],
 				"quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
 			}
 		]
 	},
 	{
-		"columnNumber": 12,
+		"columnNumber": 11,
 		"era": "Classical era",
 		"techCost": 6400,
 		"buildingCost": 500,
@@ -517,7 +489,7 @@
 		]
 	},
 	{
-		"columnNumber": 13,
+		"columnNumber": 12,
 		"era": "Classical era",
 		"techCost": 7700,
 		"buildingCost": 750,
@@ -575,7 +547,7 @@
 	},
 
 	{
-		"columnNumber": 14,
+		"columnNumber": 13,
 		"era": "Classical era",
 		"techCost": 8800,
 		"buildingCost": 750,
@@ -638,7 +610,7 @@
 		]
 	},
 	{
-		"columnNumber": 15,
+		"columnNumber": 14,
 		"era": "Classical era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -689,7 +661,7 @@
 		]
 	},
 	{
-		"columnNumber": 16,
+		"columnNumber": 15,
 		"era": "Classical era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -722,7 +694,7 @@
 
 		]
 	},	{
-		"columnNumber": 17,
+		"columnNumber": 16,
 		"era": "Classical era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -742,7 +714,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 18,
+		"columnNumber": 17,
 		"era": "Classical era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -786,7 +758,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 19,
+		"columnNumber": 18,
 		"era": "Classical era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -824,7 +796,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 20,
+		"columnNumber": 19,
 		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -838,7 +810,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 21,
+		"columnNumber": 20,
 		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -882,7 +854,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 22,
+		"columnNumber": 21,
 		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -920,7 +892,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 23,
+		"columnNumber": 22,
 		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -958,7 +930,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 24,
+		"columnNumber": 23,
 		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1008,7 +980,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 25,
+		"columnNumber": 24,
 		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1052,7 +1024,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 26,
+		"columnNumber": 25,
 		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1096,7 +1068,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 27,
+		"columnNumber": 26,
 		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1146,7 +1118,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 28,
+		"columnNumber": 27,
 		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1184,7 +1156,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 29,
+		"columnNumber": 28,
 		"era": "Renaissance era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1198,7 +1170,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 30,
+		"columnNumber": 29,
 		"era": "Renaissance era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1236,7 +1208,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 31,
+		"columnNumber": 30,
 		"era": "Renaissance era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1280,7 +1252,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 32,
+		"columnNumber": 31,
 		"era": "Medieval era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1336,7 +1308,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 33,
+		"columnNumber": 32,
 		"era": "Renaissance era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1380,7 +1352,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 34,
+		"columnNumber": 33,
 		"era": "Renaissance era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1424,7 +1396,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 35,
+		"columnNumber": 34,
 		"era": "Renaissance era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1462,7 +1434,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 36,
+		"columnNumber": 35,
 		"era": "Renaissance era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1500,7 +1472,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 37,
+		"columnNumber": 36,
 		"era": "Renaissance era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1556,7 +1528,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 38,
+		"columnNumber": 37,
 		"era": "Renaissance era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1588,7 +1560,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 39,
+		"columnNumber": 38,
 		"era": "Renaissance era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1614,7 +1586,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 40,
+		"columnNumber": 39,
 		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1628,7 +1600,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 41,
+		"columnNumber": 40,
 		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1666,7 +1638,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 42,
+		"columnNumber": 41,
 		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1698,7 +1670,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 43,
+		"columnNumber": 42,
 		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1736,7 +1708,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 44,
+		"columnNumber": 43,
 		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1786,7 +1758,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 45,
+		"columnNumber": 44,
 		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1842,7 +1814,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 46,
+		"columnNumber": 45,
 		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1898,7 +1870,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 47,
+		"columnNumber": 46,
 		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1960,7 +1932,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 48,
+		"columnNumber": 47,
 		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2010,7 +1982,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 49,
+		"columnNumber": 48,
 		"era": "Industrial era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2054,7 +2026,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 50,
+		"columnNumber": 49,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2068,7 +2040,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 51,
+		"columnNumber": 50,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2107,7 +2079,7 @@
 			
 		]
 	},	{
-		"columnNumber": 52,
+		"columnNumber": 51,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2151,7 +2123,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 53,
+		"columnNumber": 52,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2207,7 +2179,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 54,
+		"columnNumber": 53,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2275,7 +2247,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 55,
+		"columnNumber": 54,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2319,7 +2291,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 56,
+		"columnNumber": 55,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2357,7 +2329,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 57,
+		"columnNumber": 56,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2395,7 +2367,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 58,
+		"columnNumber": 57,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2433,7 +2405,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 59,
+		"columnNumber": 58,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2496,7 +2468,7 @@
 			
 		]
 	},	{
-		"columnNumber": 60,
+		"columnNumber": 59,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2546,7 +2518,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 61,
+		"columnNumber": 60,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2584,7 +2556,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 62,
+		"columnNumber": 61,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2634,7 +2606,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 63,
+		"columnNumber": 62,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -2678,7 +2650,7 @@
 			},
 		]
 	},	{
-		"columnNumber": 64,
+		"columnNumber": 63,
 		"era": "Modern era",
 		"techCost": 9500,
 		"buildingCost": 750,
