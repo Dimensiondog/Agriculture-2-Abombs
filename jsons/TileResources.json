@@ -129,6 +129,10 @@
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	{
+		"name": "Bronze",
+		"resourceType": "Strategic",
+	},
+	{
 		"name": "Coal",
 		"resourceType": "Strategic",
 		"revealedBy": "Coal Mining",
