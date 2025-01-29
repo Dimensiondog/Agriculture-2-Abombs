@@ -6,3 +6,8 @@
 2. get tech prerequistis done
 3. add units to complete unit lines
 4. add tech effects for empty techs
+
+
+
+Images
+Bronze Icon - gold bar by Monjin Friends from <a href="https://thenounproject.com/browse/icons/term/gold-bar/" target="_blank" title="gold bar Icons">Noun Project</a> (CC BY 3.0)
