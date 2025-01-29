@@ -24,15 +24,13 @@
 	},
 	{
 		"name": "Stele",
-		"replaces": "Monument",
-		"uniqueTo": "Ethiopia",
-		"culture": 2,
-		"faith": 2,
+		"culture": 1,
+		"faith": 1,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured"] //"Hidden when religion is disabled"
-		"requiredTech": "Heritage",
+		"uniques": ["Destroyed when the city is captured"], 
+		"requiredTech": "Ancestor Worship",
 	},
 	// Column 1
 	{
@@ -46,11 +44,35 @@
 		"requiredTech": "Bread Making"
 	},
 	{
+		"name": "Brewery",
+		"happiness": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Happiness] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Fermentation"
+	},
+	{
+		"name": "Potter",
+		"culture": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] per [5] population [in all cities]"],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Well",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [non-[Fresh Water]]"],
+		"requiredTech": "Mining"
+	},
+	{
 		"name": "Shrine",
 		"faith": 1,
 		"cost": 40,
 		"maintenance": 1,
-		"requiredTech": "Ancestor Worship",
+		"requiredTech": "Scriptures",
 	},
 	{
 		"name": "Pyramid",
@@ -124,7 +146,9 @@
 		"requiredNearbyImprovedResources": ["Ivory","Horses"],
 		"happiness": 2,
 		"hurryCostModifier": 25,
-				"cost": 65,
+		"cost": 65,
+		"requiredTech": "Leisure"
+
 	},
 	{
 		"name": "Water Mill",
@@ -172,7 +196,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["[-25]% tile improvement construction time","[2] free [Worker] units appear"],
-		"requiredTech": "Mummification",
+		"requiredTech": "Ceremony",
 		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
 	},
 	{
@@ -292,7 +316,6 @@
 	{
 		"name": "Temple",
 		"faith": 2,
-		"requiredBuilding": "Shrine",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Priesthood",
@@ -300,15 +323,13 @@
 	},
 	{
 		"name": "Burial Tomb",
-		"replaces": "Temple",
-		"uniqueTo": "Egypt",
 		"maintenance": 0,
 		"uniques": ["Doubles Gold given to enemy if city is captured"],
-		"faith": 2,
-		"happiness": 2,
+		"faith": 1,
+		"happiness": 1,
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
-		"requiredTech": "Priesthood"
+		"requiredTech": "Mummification"
 	},
 	{
 		"name": "Mud Pyramid Mosque",
@@ -438,10 +459,10 @@
 	// Column 5
 	{
 		"name": "Garden",
-		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
+		"uniques": ["[+15]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"requiredTech": "Theology"
+		"requiredTech": "Gardening"
 	},
 	{
 		"name": "Hagia Sophia",
