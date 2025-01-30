@@ -56,7 +56,7 @@
 		"production": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 gold] from [Lumber mill] tiles [in this city]"],
+		"uniques": ["[+1 Gold] from [Lumber mill] tiles [in this city]"],
 		"requiredTech": "Furniture Making"
 	},
 	{
@@ -64,7 +64,7 @@
 		"Food": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 gold, +2 Culture] from [Silk] tiles [in this city]"],
+		"uniques": ["[+2 Gold, +2 Culture] from [Silk] tiles [in this city]"],
 		"requiredTech": "Sericulture"
 	},
 	{
@@ -153,7 +153,7 @@
 		"gold": 1,
 		"maintenance": 2,
 		"uniques": ["Provides [1] [Glass]","Must have an owned [Desert] within [3] tiles"],
-		"requiredTech": "Glass Blowing",
+		"requiredTech": "Glassblowing",
 	},
 	{
 		"name": "Pyramid",
