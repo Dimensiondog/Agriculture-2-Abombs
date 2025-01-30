@@ -6,18 +6,17 @@
         "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
         "[-33]% Strength <for [All] units> <when below [-10] Happiness>",
         "Cannot build [Settler] units <when below [-10] Happiness>",
-        "Rebel units may spawn <when below [-20] Happiness>"
+        "Rebel units may spawn <when below [0] Happiness>",
     
-         "[+20]% [Culture] [in all cities] <during a golden age>",
-         "[+20]% [Production] [in all cities] <during a golden age>",
+         "[+20]% [Culture] [in all cities] <during a Golden age>",
+         "[+20]% [Production] [in all cities] <during a Golden age>",
     
          "[+10]% growth [in all cities] <during We Love The King Day>",
     
          "Nullifies All Yield <while is in resistance>",
+        "Triggers a [Ancient Culture] event<upon turn end><before turn number [2]>",
         
-         "[-25]% [Science] [in pupetted cities]" 
-       "[-25]% [Culture] [in pupetted cities]"
-        
-        "[+20]% [Production] [in cities connected via railroad]"
+         "[-25]% [Science] [in pupetted cities]", 
+       "[-25]% [Culture] [in pupetted cities]",
     ]
 }
