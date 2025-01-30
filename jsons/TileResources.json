@@ -421,6 +421,12 @@
 		"uniques": ["Can only be created by Mercantile City-States"]
 	},
 	{
+		"name": "Glass",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
 		"name": "Citrus",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains"],
