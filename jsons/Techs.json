@@ -198,10 +198,10 @@
 				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
 			{
-				"name": "Copper Working",
+				"name": "Metal Casting",
 				"row": 4,
 				"prerequisites": ["Mining"],
-				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
+				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
 			},
 			{
 				"name": "Pulley",
@@ -243,15 +243,9 @@
 			{
 				"name": "Oil Lamps",
 				"row": 2,
-				"prerequisites": ["Fermentation","Trade"],
+				"prerequisites": ["Fermentation","Trade","Metal Casting"],
 				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements"],
 				"quote": "'Education is the best provision for old age.' - Aristotle"
-			},
-			{
-				"name": "Metal Casting",
-				"row": 4,
-				"prerequisites": ["Copper Working"],
-				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
 			},
 			{
 				"name": "Textile Looms",
