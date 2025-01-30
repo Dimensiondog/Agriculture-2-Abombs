@@ -365,7 +365,7 @@
 			{
 				"name": "Glassblowing",
 				"row": 3,
-				"prerequisites": ["Bronze Working"],
+				"prerequisites": ["Leisure"],
 				"quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
 			},
 			{
