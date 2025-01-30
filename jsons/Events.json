@@ -1,0 +1,64 @@
+[
+    {
+        "name": "New Dynasty Arises",
+        "text": "A New Dynasty Has taken the Mandate of Heaven",
+        "choices": [
+            {
+                "text": "Technology Shall Advance",
+                "uniques": [
+                "Free Technology"]
+            },
+            {
+                "text": "The Military is Reorganisied",
+                "uniques": [
+                "[+20]% Strength<for [15] turns>"]
+            },
+            {
+                "text": "The Artisans Shall Create",
+                "uniques": [
+                "Free [Great Artist] appears"
+                ]
+            },
+            {
+                "text": "Heaven Smiles Upon us",
+                "uniques": [
+                "Gain enough Faith for [50]% of a Great Prophet"
+                ]
+            },
+            {
+                "text": "This Shall Be a Year of Plenty",
+                "uniques": [
+                "[1] population [in all cities]"
+                ]
+            },
+        ]
+    },
+    {
+        "name": "Ancient Culture",
+        "text": "Choose a Culture for the Ancient Era",
+        "choices": [
+            {
+                "text": "Akkad: First Empire",
+                "uniques": [
+                "[+20]% Strength<vs cities><for [1000] turns>",
+                "Only available<for [Mesopotamia] Civilizations>"
+                ]
+            },
+            {
+                "text": "Sumeria: First Civilisation",
+                "uniques": [
+                "Discover [Agriculture]","Discover [Ideograms]","Discover [Pottery]",
+                "Only available<for [Mesopotamia] Civilizations>"
+                ]
+            },
+            {
+                "text": "Shang: Oracle Bones",
+                "uniques": [
+                "[+1 Faith] from [Pasture] tiles [in all cities]",
+                "Gain [10] [Science]<upon building a [Pasture] improvement>",
+                "Only available<for [China] Civilizations>"
+                ]
+            },
+        ]
+    },
+]
