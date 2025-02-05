@@ -54,9 +54,33 @@
             {
                 "text": "Shang: Oracle Bones",
                 "uniques": [
-                "[+1 Faith] from [Pasture] tiles [in all cities]",
+                "[+2 Faith] from [Pasture] tiles [in all cities]",
                 "Gain [10] [Science]<upon building a [Pasture] improvement>",
                 "Only available<for [China] Civilizations>"
+                ]
+            },
+            {
+                "text": "Minoa: Minoan Palaces",
+                "uniques": [
+                "[+1 Production, +1 Faith] from all [Culture] buildings",
+                "[+5]% Production when constructing [All] wonders [in all cities]",
+                "Only available<for [Greece] Civilizations>"
+                ]
+            },
+            {
+                "text": "Mycenae: Myths and Epics",
+                "uniques": [
+                "[+1 Culture] per every [5] [Faith]",
+                "Gain a free [Pantheon] belief<upon discovering [Priesthood] technology>",
+                "Only available<for [Greece] Civilizations>"
+                ]
+            },
+            {
+                "text": "Old Kingdom: Pyramid Builders",
+                "uniques": [
+                "[+1 Culture, +2 Production] from [Quarry] tiles [in all cities]",
+                "Instantly gain [1-0] [Golden Age Points]<upon constructing [Wonder]>",
+                "Only available<for [Egypt] Civilizations>"
                 ]
             },
         ]
