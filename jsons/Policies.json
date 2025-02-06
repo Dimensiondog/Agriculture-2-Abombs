@@ -41,6 +41,38 @@
         ]
     },
     {
+        "name": "City States",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 30,
+            "Cultural": 30,
+            "Diplomatic": 0,
+            "Domination": 20,
+            "Scientific": 0
+        },
+        "uniques": [
+            "[+3 Culture] [in capital]",
+            "[-25]% Culture cost of natural border growth [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "Trade Networks",
+                "uniques": [
+                    "[+2 Gold, +1 Happiness] from each Trade Route",
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "City States Complete",
+                "uniques": [
+                    "[+15]% growth [in all cities]",
+                    "Provides a [Aqueduct] in your first [4] cities for free"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Tradition",
         "era": "Ancient era",
         "priorities": {
